@@ -13,5 +13,6 @@ export class FeaturedComponent {
   @HostBinding('style.position')  position = 'absolute';
   @HostBinding('style.width')  width = '100%';
   title = 'Featured Product';
-  intro_image = "./assets/images/grill_display.jpg";
+  sale_info = 'The RKYS154 was originally $139.99, now only $69.99... Whoa.';
+  intro_image = "./assets/images/rkys154_featured.jpg";
 }
