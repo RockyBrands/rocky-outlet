@@ -120,15 +120,32 @@ img#desktop_intro_image {
   color: #515844;
 }
 
-.internal_arrow {
+.section_text {
+  margin-bottom: 15px;
+}
+
+.internal_href {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+div.internal_line {
+  width: 15px;
+  height: 2px;
+  background: #282828;
+  display: inline-block;
+  position: relative;
+  top: -3px;
   -webkit-transition: all 0.5s ease;
 	-moz-transition: all 0.5s ease;
 	-o-transition: all 0.5s ease;
 	transition: all 0.5s ease;
+  text-decoration: none;
 }
 
-.internal_href:hover .internal_arrow {
-  margin-left: -5px;
+.internal_href:hover .internal_line {
+  margin-left: -20px;
+  width: 70px
 }
 
 .internal_link {

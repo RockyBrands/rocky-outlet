@@ -24,7 +24,6 @@ p#copy {
 }
 
 #facebook:hover {
-	animation: dancing_bird 2s ease-in-out infinite;
 	fill: #8a1913;
 	transition: all 0.7s linear;
 	-webkit-transition: all 0.7s linear;
@@ -41,13 +40,12 @@ p#copy {
 }
 
 #twitter:hover {
-	animation: dancing_bird 2s ease-in-out infinite;
 	fill: #8a1913;
 	transition: all 0.7s linear;
 	-webkit-transition: all 0.7s linear;
 }
 
-@keyframes dancing_bird {
+/*@keyframes dancing_bird {
 	0%, 100% {
 		transform: rotate(0deg) translateX(0) translateY(0px);
 	}
@@ -59,4 +57,19 @@ p#copy {
 	75% {
 		transform: rotate(30deg) translateX(0px) translateY(0px);
 	}
+}*/
+
+.internal_link {
+  display: inline-block;
+  margin-left: 5px;
+  -webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+	text-decoration: none;
+}
+
+.internal_link:hover {
+  margin-left: 20px;
+  margin-right: -10px;
 }
