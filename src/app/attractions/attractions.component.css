@@ -1,0 +1,211 @@
+img {
+  width: 100%;
+}
+
+div.left img {
+  border-radius: 20px;
+}
+
+div.right img {
+  border-radius: 20px;
+}
+/* Section styling ========================================================== */
+section.section {
+  width:100%;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+section#call_to_action {
+  width:100%;
+  background: #f0f2ed;
+}
+
+section#attractions_info {
+  background: #ffffff;
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+/* End of Section styling =================================================== */
+
+
+/* /Call to Action styling ================================================== */
+div#introduction {
+  text-align: left;
+  background: #f0f2ed;
+  margin-top: 100px;
+  height: 300px;
+}
+
+div#introduction h1 {
+  color: #282828;
+  margin-left: 40px;
+  font-size: 3em;
+}
+
+div#introduction p {
+  color: #444444;
+  margin-left: 40px;
+  font-size: 1.4em;
+}
+/* End of Intro / Call to Action ============================================ */
+
+
+/* Image / Text / Rest of the Page / Class Styling ========================== */
+.half_text {
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  display: table;
+  height: 400px;
+}
+
+.col-xs-9.left {
+  float: left;
+  padding-top: 20px;
+  margin-left: 15px;
+}
+
+.col-xs-9.right {
+  float: right;
+  padding-top: 20px;
+  margin-right: 15px;
+  padding-right: 0px;
+}
+
+.col-xs-10.left {
+  float: left;
+  padding-top: 20px;
+  margin-left: 15px;
+}
+
+.col-xs-10.right {
+  float: right;
+  padding-top: 20px;
+  margin-right: 15px;
+}
+
+.inner_text_left {
+  color: #282828;
+  text-align: left;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.inner_text_left h2 {
+  text-transform: uppercase;
+  color: #515844;
+}
+
+.inner_text_right {
+  color: #282828;
+  text-align: right;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.inner_text_right h2 {
+  text-transform: uppercase;
+  color: #515844;
+}
+
+.internal_arrow {
+  -webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+.internal_href:hover .internal_arrow {
+  margin-left: -5px;
+}
+
+.internal_link {
+  display: inline-block;
+  margin-left: 5px;
+  -webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+.internal_href:hover .internal_link {
+  margin-left: 20px;
+  margin-right: -10px;
+}
+
+#map {
+  width: 100%;
+  height: 40vh;
+}
+
+div#contact_info h2 {
+  color: #515844;
+  text-transform: uppercase;
+}
+/* End of Image / Text / Rest of the Page / Class Styling =================== */
+
+/* jQuery Hover 3D styling ================================================== */
+.hover-in  {
+	transition: .3s ease-out;
+}
+
+.hover-out  {
+	transition: .3s ease-in;
+}
+/* End of jQuery Hover 3D styling =========================================== */
+
+/* Footer =================================================================== */
+footer#footer {
+  height: 200px;
+  background: #f0f2ed;
+}
+
+/* Media Queries ============================================================ */
+
+/* Mobile / Tablet =============================== */
+@media screen and (max-width: 991px) {
+
+}
+
+@media screen and (min-width: 500px) {
+  div#introduction h1 {
+    font-size: 4em;
+  }
+}
+
+/* Desktop ====================================== */
+@media screen and (min-width: 992px) {
+  .half_text {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  div#introduction {
+    margin-top: 180px;
+  }
+
+  div#introduction h1 {
+    margin-left: 200px;
+  }
+
+  div#introduction p {
+    margin-left: 200px;
+  }
+
+  .col-xs-9.left {
+    margin-left: 80px;
+  }
+
+  .col-xs-9.right {
+    margin-right: 80px;
+  }
+
+  .col-xs-10.left {
+    margin-left: 160px;
+  }
+
+  .col-xs-10.right {
+    margin-right: 160px;
+  }
+}

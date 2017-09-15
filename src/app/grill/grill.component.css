@@ -1,0 +1,205 @@
+img {
+  width: 100%;
+}
+
+.col-xs-12 {
+  padding-right: 0px !important;
+}
+
+.red {
+  color: #8a1913;
+}
+
+.price_border {
+  float: right;
+  padding-right: 20px;
+  border-right: 1px dashed #515844;
+}
+
+.price {
+  float: right;
+  height: 50px;
+  width:50px;
+  border-radius: 25px;
+  background: #f0f2ed;
+  text-align: center;
+  color: #8a1913;
+  vertical-align: middle;
+  border: 1px solid #8a1913;
+}
+
+.price_02 {
+  position: relative;
+  top: 14px;
+  font-size: 0.9em;
+}
+
+h4 {
+  margin-top:0px;
+}
+
+.date_h4 {
+  margin-bottom: 10px;
+}
+
+.smaller_serif {
+  font-size: 0.8em;
+  font-family: 'Merriweather', serif;
+  position: relative;
+  top: -10px;
+}
+
+.menu_title_padding {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.menu_padding {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Section styling ========================================================== */
+section.section {
+  width:100%;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+section#call_to_action {
+  width:100%;
+  background: #f0f2ed;
+}
+
+section#menus {
+  background: #ffffff;
+}
+/* End of Section styling =================================================== */
+
+
+/* /Call to Action styling ================================================== */
+div#introduction {
+  text-align: left;
+  background: #f0f2ed;
+  margin-top: 100px;
+  height: 300px;
+}
+
+div#introduction h1 {
+  color: #282828;
+  margin-left: 40px;
+  font-size: 3em;
+}
+
+div#introduction p {
+  color: #444444;
+  margin-left: 40px;
+  font-size: 1.4em;
+}
+/* End of Intro / Call to Action ============================================ */
+
+
+/* Image / Text / Rest of the Page / Class Styling ========================== */
+.half_text {
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 0px;
+  border-bottom: 1px solid #515844;
+}
+
+.inner_text_left {
+  color: #282828;
+}
+
+.inner_text_left h2 {
+  text-transform: uppercase;
+  color: #515844;
+}
+
+.items_inside {
+  padding-top: 20px;
+  padding-right: 20px !important;
+}
+/* End of Image / Text / Rest of the Page / Class Styling =================== */
+
+/* Media Queries ============================================================ */
+
+/* Mobile / Tablet =============================== */
+@media screen and (max-width: 991px) {
+
+}
+
+@media screen and (min-width: 500px) {
+  div#introduction h1 {
+    font-size: 4em;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .items_inside.weekly {
+    height: 120px;
+  }
+
+  .col-xs-12 {
+    padding-right: 15px !important;
+  }
+}
+
+/* Desktop ====================================== */
+@media screen and (min-width: 992px) {
+  .items_inside.weekly {
+    height: 170px;
+  }
+
+  .items_inside.breakfast {
+    height: 100px;
+  }
+
+  .items_inside.healthy {
+    height: 120px;
+  }
+
+  .menu_title_padding {
+    padding-left: 140px;
+    padding-right: 140px;
+  }
+
+  .menu_padding {
+    padding-left: 160px;
+    padding-right: 160px;
+  }
+
+  .half_text {
+
+  }
+
+  div#introduction {
+    margin-top: 180px;
+  }
+
+  div#introduction h1 {
+    margin-left: 200px;
+  }
+
+  div#introduction p {
+    margin-left: 200px;
+  }
+
+  .col-xs-9.left {
+    margin-left: 80px;
+  }
+
+  .col-xs-9.right {
+    margin-right: 80px;
+  }
+
+  .col-xs-10.left {
+    margin-left: 0px;
+    padding-left: 180px;
+  }
+
+  .col-xs-10.right {
+    margin-right: 0px;
+    padding-right: 180px;
+  }
+}

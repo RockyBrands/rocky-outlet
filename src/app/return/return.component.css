@@ -1,0 +1,109 @@
+img {
+  width: 100%;
+}
+
+.red {
+  color: #8a1913;
+}
+
+h4 {
+  margin-top:0px;
+  margin-bottom: 30px;
+}
+
+/* Section styling ========================================================== */
+section.section {
+  width:100%;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+section#call_to_action {
+  width:100%;
+  background: #f0f2ed;
+}
+
+section#return_info {
+  background: #ffffff;
+}
+/* End of Section styling =================================================== */
+
+
+/* /Call to Action styling ================================================== */
+div#introduction {
+  text-align: left;
+  background: #f0f2ed;
+  margin-top: 100px;
+  height: 300px;
+}
+
+div#introduction h1 {
+  color: #282828;
+  margin-left: 40px;
+  font-size: 4em;
+}
+
+div#introduction p {
+  color: #444444;
+  margin-left: 40px;
+  font-size: 1.4em;
+}
+/* End of Intro / Call to Action ============================================ */
+
+
+/* Image / Text / Rest of the Page / Class Styling ========================== */
+.half_text {
+  text-align: left;
+  padding: 60px 30px 0px 30px !important;
+}
+
+.inner_text_left {
+  color: #282828;
+}
+
+.inner_text_left h2 {
+  text-transform: uppercase;
+  color: #515844;
+}
+
+.inner_text_right {
+  color: #282828;
+}
+
+.inner_text_right h2 {
+  text-transform: uppercase;
+  color: #515844;
+}
+
+div#last {
+  padding-bottom: 60px;
+}
+/* End of Image / Text / Rest of the Page / Class Styling =================== */
+
+/* Media Queries ============================================================ */
+
+/* Mobile / Tablet =============================== */
+@media screen and (max-width: 991px) {
+
+}
+
+/* Desktop ====================================== */
+@media screen and (min-width: 992px) {
+
+  .half_text {
+    padding: 60px 200px 0px 200px !important;
+  }
+
+  div#introduction {
+    margin-top: 180px;
+  }
+
+  div#introduction h1 {
+    margin-left: 200px;
+  }
+
+  div#introduction p {
+    margin-left: 200px;
+  }
+
+}
