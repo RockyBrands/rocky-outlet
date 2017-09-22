@@ -14,21 +14,33 @@ export class GrillComponent {
   @HostBinding('style.width')  width = '100%';
   title = 'The Boot Grill';
   intro_image = "./assets/images/boot_grill.jpg";
-  monday_date = '7/31';
-  monday_main = 'Fried Chicken';
-  monday_sides = 'mashed potatoes & gravy, corn, rolls';
-  tuesday_date = '8/1';
-  tuesday_main = 'Big Bobs Fish';
-  tuesday_sides = 'potatoes au gratin, mixed vegetables, lemon wedges';
-  wednesday_date = '8/2';
-  wednesday_main = 'Turkey Wraps';
-  wednesday_sides = 'baked beans, glazed carrots';
-  thursday_date = '8/3';
-  thursday_main = 'Pork Chops Sauerkraut';
-  thursday_sides = 'roasted potatoes, california blend';
-  friday_date = '8/4';
-  friday_main = 'Sweet & Sour Chicken';
-  friday_sides = 'rice, egg rolls';
-  saturday_date = '8/5';
-  sunday_date = '8/6';
+
+  monday_date = '9/18';
+  monday_main = 'Pulled Pork';
+  monday_sides = 'seasoned fries, slaw';
+  monday_soup = 'Beef n Noodle';
+
+  tuesday_date = '9/19';
+  tuesday_main = 'Spaghetti & Meatballs';
+  tuesday_sides = 'garlic toast, spinach salad';
+  tuesday_soup = 'Stuffed Pepper';
+
+  wednesday_date = '9/20';
+  wednesday_main = 'Chicken Alfredo';
+  wednesday_sides = 'broccoli';
+  wednesday_soup = 'Pumpkin Apple and Bacon';
+
+  thursday_date = '9/21';
+  thursday_main = 'General Tso Chicken';
+  thursday_sides = 'fried rice, egg rolls';
+  thursday_soup = 'Broccoli Cheese';
+
+  friday_date = '9/22';
+  friday_main = 'Taco Casserole';
+  friday_sides = 'corn & black bean fiesta';
+  friday_soup = 'White Chicken Chili';
+
+  saturday_date = '9/23';
+
+  sunday_date = '9/24';
 }

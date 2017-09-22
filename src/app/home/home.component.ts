@@ -19,4 +19,5 @@ export class HomeComponent {
   attractions_image = "./assets/images/tourist_attractions_mobile.jpg";
   grill_image = "./assets/images/boot_grill_mobile.jpg";
   featured_image = "./assets/images/grill_display_mobile.jpg";
+  dvd_image = "./assets/images/sole_survivor_mobile.jpg";
 }

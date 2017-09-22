@@ -137,7 +137,11 @@ div#introduction p {
 
 @media screen and (min-width: 768px) {
   .items_inside.weekly {
-    height: 120px;
+    height: 220px;
+  }
+
+  .items_inside.breakfast {
+    height: 100px;
   }
 
   .col-xs-12 {
@@ -148,11 +152,7 @@ div#introduction p {
 /* Desktop ====================================== */
 @media screen and (min-width: 992px) {
   .items_inside.weekly {
-    height: 170px;
-  }
-
-  .items_inside.breakfast {
-    height: 100px;
+    height: 200px;
   }
 
   .items_inside.healthy {
