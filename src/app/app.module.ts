@@ -16,6 +16,7 @@ import { GrillComponent } from './grill/grill.component';
 import { FeaturedComponent } from './featured/featured.component';
 import { ReturnComponent } from './return/return.component';
 import { FooterComponent }  from './footer/footer.component';
+import { FourOhFourComponent }  from './fourohfour/fourohfour.component';
 
 @NgModule({
   declarations: [
@@ -28,6 +29,7 @@ import { FooterComponent }  from './footer/footer.component';
     FeaturedComponent,
     ReturnComponent,
     FooterComponent,
+    FourOhFourComponent,
   ],
   imports: [
     BrowserModule,

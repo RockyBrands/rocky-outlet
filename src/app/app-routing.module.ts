@@ -8,6 +8,7 @@ import { AttractionsComponent }    from './attractions/attractions.component';
 import { GrillComponent } from './grill/grill.component';
 import { FeaturedComponent } from './featured/featured.component';
 import { ReturnComponent } from './return/return.component';
+import { FourOhFourComponent }  from './fourohfour/fourohfour.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
@@ -17,6 +18,7 @@ const routes: Routes = [
   { path: 'grill', component: GrillComponent },
   { path: 'featured', component: FeaturedComponent },
   { path: 'return', component: ReturnComponent },
+  { path: '**', component: FourOhFourComponent }
 ];
 
 @NgModule({
