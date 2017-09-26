@@ -87,13 +87,13 @@ div#introduction {
 
 div#introduction h1 {
   color: #282828;
-  margin-left: 40px;
+  margin-left: 20px;
   font-size: 3em;
 }
 
 div#introduction p {
   color: #444444;
-  margin-left: 40px;
+  margin-left: 20px;
   font-size: 1.4em;
 }
 /* End of Intro / Call to Action ============================================ */
@@ -152,7 +152,7 @@ div#introduction p {
 /* Desktop ====================================== */
 @media screen and (min-width: 992px) {
   .items_inside.weekly {
-    height: 200px;
+    height: 240px;
   }
 
   .items_inside.healthy {
