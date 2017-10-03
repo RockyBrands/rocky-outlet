@@ -15,32 +15,32 @@ export class GrillComponent {
   title = 'The Boot Grill';
   intro_image = "./assets/images/boot_grill.jpg";
 
-  monday_date = '9/25';
-  monday_main = 'Hot Dog Bar';
-  monday_sides = 'baked beans, macaroni salad';
-  monday_soup = 'Chimichuri with Steak';
+  monday_date = '10/02';
+  monday_main = 'Smothered Pork Chops';
+  monday_sides = 'mashed potatoes, pork gravy, california vegetables, biscuit';
+  monday_soup = 'Chicken Noodle';
 
-  tuesday_date = '9/26';
-  tuesday_main = 'Country Fried Steak';
-  tuesday_sides = 'mashed potatoes, gravy, corn';
-  tuesday_soup = 'Cream of Chicken with Wild Rice';
+  tuesday_date = '10/03';
+  tuesday_main = 'Pasta Bar';
+  tuesday_sides = 'spinach salad, garlic toast';
+  tuesday_soup = 'Vegetable Beef';
 
-  wednesday_date = '9/27';
-  wednesday_main = 'Italian Wraps';
-  wednesday_sides = 'pasta salad, fried pickles';
-  wednesday_soup = 'Baja Chicken Enchilada';
+  wednesday_date = '10/04';
+  wednesday_main = 'Cabbage Rolls';
+  wednesday_sides = 'mashed potatoes, green beans, rolls';
+  wednesday_soup = 'Mushroom Brie';
 
-  thursday_date = '9/28';
-  thursday_main = '3 Choices of Breaded Shrimp';
-  thursday_sides = 'hushpuppies, slaw';
-  thursday_soup = 'Stuffed Pepper';
+  thursday_date = '10/05';
+  thursday_main = 'BBQ Ribs';
+  thursday_sides = 'au gratin potatoes, brussel sprouts';
+  thursday_soup = 'White Chicken Chili';
 
-  friday_date = '9/29';
-  friday_main = 'Chicken with Spinach Artichoke';
-  friday_sides = 'mashed potatoes, gravy, California vegetables';
-  friday_soup = 'Tuscan Bean with Sausage';
+  friday_date = '10/06';
+  friday_main = 'Sloppy Jo';
+  friday_sides = 'macaroni & cheese, buttered peas';
+  friday_soup = 'Beef Barley';
 
-  saturday_date = '9/30';
+  saturday_date = '10/07';
 
-  sunday_date = '10/1';
+  sunday_date = '10/08';
 }

@@ -13,6 +13,6 @@ export class FeaturedComponent {
   @HostBinding('style.position')  position = 'absolute';
   @HostBinding('style.width')  width = '100%';
   title = 'Featured Product';
-  sale_info = 'The RKYS154 was originally $139.99, now only $69.99... Whoa.';
-  intro_image = "./assets/images/rkys154_featured.jpg";
+  sale_info = 'Get this, the RKS0238, yes that is THE Venator Rocky Claw is only $77.49. What are you waiting for?!';
+  intro_image = "./assets/images/rks0238_featured.jpg";
 }
