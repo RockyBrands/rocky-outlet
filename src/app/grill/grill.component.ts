@@ -15,32 +15,32 @@ export class GrillComponent {
   title = 'The Boot Grill';
   intro_image = "./assets/images/boot_grill.jpg";
 
-  monday_date = '10/02';
-  monday_main = 'Smothered Pork Chops';
-  monday_sides = 'mashed potatoes, pork gravy, california vegetables, biscuit';
-  monday_soup = 'Chicken Noodle';
+  monday_date = '10/09';
+  monday_main = 'Pizza Bar';
+  monday_sides = 'Pepperoni, Pepperoni and Mushroom, Meat Lovers, Buffalo';
+  monday_soup = 'Homemade Pizza Soup';
 
-  tuesday_date = '10/03';
-  tuesday_main = 'Pasta Bar';
-  tuesday_sides = 'spinach salad, garlic toast';
-  tuesday_soup = 'Vegetable Beef';
+  tuesday_date = '10/10';
+  tuesday_main = 'Bread Bowl / Soup Bar';
+  tuesday_sides = 'Cheddar Broccoli, Minestrone, Chicken Noodle, Vegetable';
+  tuesday_soup = 'Chicken Gumbo';
 
-  wednesday_date = '10/04';
-  wednesday_main = 'Cabbage Rolls';
-  wednesday_sides = 'mashed potatoes, green beans, rolls';
-  wednesday_soup = 'Mushroom Brie';
+  wednesday_date = '10/11';
+  wednesday_main = 'Wing Wednesday';
+  wednesday_sides = 'celery & carrots with ranch, steamed broccoli';
+  wednesday_soup = 'Cheeseburger Chowder';
 
-  thursday_date = '10/05';
-  thursday_main = 'BBQ Ribs';
-  thursday_sides = 'au gratin potatoes, brussel sprouts';
-  thursday_soup = 'White Chicken Chili';
+  thursday_date = '10/12';
+  thursday_main = 'Create A Slider';
+  thursday_sides = 'chips, various meats and toppings';
+  thursday_soup = 'Spinach & Artichoke';
 
-  friday_date = '10/06';
-  friday_main = 'Sloppy Jo';
-  friday_sides = 'macaroni & cheese, buttered peas';
-  friday_soup = 'Beef Barley';
+  friday_date = '10/13';
+  friday_main = 'Breakfast for Lunch';
+  friday_sides = 'scrambled eggs, French toast, sausage, pancakes';
+  friday_soup = 'Vegan Minestrone';
 
-  saturday_date = '10/07';
+  saturday_date = '10/14';
 
-  sunday_date = '10/08';
+  sunday_date = '10/15';
 }
