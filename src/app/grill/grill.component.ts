@@ -15,32 +15,32 @@ export class GrillComponent {
   title = 'The Boot Grill';
   intro_image = "./assets/images/boot_grill.jpg";
 
-  monday_date = '10/09';
-  monday_main = 'Pizza Bar';
-  monday_sides = 'Pepperoni, Pepperoni and Mushroom, Meat Lovers, Buffalo';
-  monday_soup = 'Homemade Pizza Soup';
+  monday_date = '10/30';
+  monday_main = 'Wraps Bar';
+  monday_sides = 'Italian or Turkey Cheddar, chips, pasta salad';
+  monday_soup = 'Tuscan Potato Soup';
 
-  tuesday_date = '10/10';
-  tuesday_main = 'Bread Bowl / Soup Bar';
-  tuesday_sides = 'Cheddar Broccoli, Minestrone, Chicken Noodle, Vegetable';
-  tuesday_soup = 'Chicken Gumbo';
+  tuesday_date = '10/31';
+  tuesday_main = 'Spooky Special';
+  tuesday_sides = 'bat wings, skeleton bones, cemetery dirt pudding';
+  tuesday_soup = 'Apple, Pumpkin, and Bacon';
 
-  wednesday_date = '10/11';
-  wednesday_main = 'Wing Wednesday';
-  wednesday_sides = 'celery & carrots with ranch, steamed broccoli';
-  wednesday_soup = 'Cheeseburger Chowder';
+  wednesday_date = '11/01';
+  wednesday_main = 'Lasagna';
+  wednesday_sides = 'breadsticks, spinach salad';
+  wednesday_soup = 'Minestrone';
 
-  thursday_date = '10/12';
-  thursday_main = 'Create A Slider';
-  thursday_sides = 'chips, various meats and toppings';
-  thursday_soup = 'Spinach & Artichoke';
+  thursday_date = '11/02';
+  thursday_main = 'American Cookout';
+  thursday_sides = 'corn on the cob, hamburgers, mini corn dogs';
+  thursday_soup = 'French Onion Soup';
 
-  friday_date = '10/13';
-  friday_main = 'Breakfast for Lunch';
-  friday_sides = 'scrambled eggs, French toast, sausage, pancakes';
-  friday_soup = 'Vegan Minestrone';
+  friday_date = '11/03';
+  friday_main = 'Fish Bar';
+  friday_sides = 'macaroni and cheese, cole slaw';
+  friday_soup = 'Clam Chowder';
 
-  saturday_date = '10/14';
+  saturday_date = '11/04';
 
-  sunday_date = '10/15';
+  sunday_date = '11/05';
 }

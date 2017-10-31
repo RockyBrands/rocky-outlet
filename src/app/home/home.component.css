@@ -171,6 +171,11 @@ div#contact_info h2 {
   color: #515844;
   text-transform: uppercase;
 }
+
+div#hours h2 {
+  color: #515844;
+  text-transform: uppercase;
+}
 /* End of Image / Text / Rest of the Page / Class Styling =================== */
 
 /* jQuery Hover 3D styling ================================================== */
@@ -199,6 +204,12 @@ footer#footer {
 @media screen and (min-width: 500px) {
   div#introduction h1 {
     font-size: 4em;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  div.goaway {
+    display: none;
   }
 }
 
