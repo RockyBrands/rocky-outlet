@@ -15,32 +15,32 @@ export class GrillComponent {
   title = 'The Boot Grill';
   intro_image = "./assets/images/boot_grill.jpg";
 
-  monday_date = '10/30';
-  monday_main = 'Wraps Bar';
-  monday_sides = 'Italian or Turkey Cheddar, chips, pasta salad';
-  monday_soup = 'Tuscan Potato Soup';
+  monday_date = '11/20';
+  monday_main = 'Chicken Alfredo';
+  monday_sides = 'broccoli, cheesy garlic bredsticks';
+  monday_soup = 'Cream of Broccoli Soup';
 
-  tuesday_date = '10/31';
-  tuesday_main = 'Spooky Special';
-  tuesday_sides = 'bat wings, skeleton bones, cemetery dirt pudding';
-  tuesday_soup = 'Apple, Pumpkin, and Bacon';
+  tuesday_date = '11/21';
+  tuesday_main = 'Pizza';
+  tuesday_sides = '3 cheese, pepperoni, veggie, bacon cheeseburger';
+  tuesday_soup = 'Tomato Bisque';
 
-  wednesday_date = '11/01';
-  wednesday_main = 'Lasagna';
-  wednesday_sides = 'breadsticks, spinach salad';
-  wednesday_soup = 'Minestrone';
+  wednesday_date = '11/22';
+  wednesday_main = 'Wings';
+  wednesday_sides = 'celery, ranch';
+  wednesday_soup = 'Mushroom Brie';
 
-  thursday_date = '11/02';
-  thursday_main = 'American Cookout';
-  thursday_sides = 'corn on the cob, hamburgers, mini corn dogs';
-  thursday_soup = 'French Onion Soup';
+  thursday_date = '11/23';
+  thursday_main = 'Happy Thanksgiving!';
+  // thursday_sides = 'a large heaping of family time';
+  // thursday_soup = 'At your own house.';
 
-  friday_date = '11/03';
-  friday_main = 'Fish Bar';
-  friday_sides = 'macaroni and cheese, cole slaw';
-  friday_soup = 'Clam Chowder';
+  friday_date = '11/24';
+  friday_main = 'Load Your Own Nachos';
+  friday_sides = 'shredded pork, cheese, chili, jalapeño peppers, other toppings';
+  friday_soup = 'Pumpkin, Apple, and Bacon Soup';
 
-  saturday_date = '11/04';
+  saturday_date = '11/25';
 
-  sunday_date = '11/05';
+  sunday_date = '11/26';
 }
