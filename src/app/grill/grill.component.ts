@@ -15,32 +15,32 @@ export class GrillComponent {
   title = 'The Boot Grill';
   intro_image = "./assets/images/boot_grill.jpg";
 
-  monday_date = '11/20';
-  monday_main = 'Chicken Alfredo';
-  monday_sides = 'broccoli, cheesy garlic bredsticks';
-  monday_soup = 'Cream of Broccoli Soup';
+  monday_date = '11/27';
+  monday_main = 'Beef Stew';
+  monday_sides = 'cole slaw, biscuits';
+  monday_soup = 'Clam Chowder';
 
-  tuesday_date = '11/21';
-  tuesday_main = 'Pizza';
-  tuesday_sides = '3 cheese, pepperoni, veggie, bacon cheeseburger';
-  tuesday_soup = 'Tomato Bisque';
+  tuesday_date = '11/28';
+  tuesday_main = 'Chicken Dumplings';
+  tuesday_sides = 'brussel sprouts, mashed potatoes & gravy';
+  tuesday_soup = 'French Onion Soup';
 
-  wednesday_date = '11/22';
-  wednesday_main = 'Wings';
-  wednesday_sides = 'celery, ranch';
-  wednesday_soup = 'Mushroom Brie';
+  wednesday_date = '11/29';
+  wednesday_main = 'Cabbage Rolls';
+  wednesday_sides = 'macaroni & cheese, rolls';
+  wednesday_soup = 'White Chicken Chili';
 
-  thursday_date = '11/23';
-  thursday_main = 'Happy Thanksgiving!';
-  // thursday_sides = 'a large heaping of family time';
-  // thursday_soup = 'At your own house.';
+  thursday_date = '11/30';
+  thursday_main = 'Chicken Parmesan';
+  thursday_sides = 'California vegetables';
+  thursday_soup = 'Spinach and Artichoke';
 
-  friday_date = '11/24';
-  friday_main = 'Load Your Own Nachos';
-  friday_sides = 'shredded pork, cheese, chili, jalapeño peppers, other toppings';
-  friday_soup = 'Pumpkin, Apple, and Bacon Soup';
+  friday_date = '12/01';
+  friday_main = 'Cheese Manicotti';
+  friday_sides = 'broccoli, spinach salad, garlic bread';
+  friday_soup = 'Cream of Broccoli';
 
-  saturday_date = '11/25';
+  saturday_date = '12/02';
 
-  sunday_date = '11/26';
+  sunday_date = '12/03';
 }
