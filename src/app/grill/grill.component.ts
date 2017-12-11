@@ -15,32 +15,32 @@ export class GrillComponent {
   title = 'The Boot Grill';
   intro_image = "./assets/images/boot_grill.jpg";
 
-  monday_date = '11/27';
-  monday_main = 'Beef Stew';
-  monday_sides = 'cole slaw, biscuits';
-  monday_soup = 'Clam Chowder';
+  monday_date = '12/04';
+  monday_main = 'Chicken Noodles';
+  monday_sides = 'mashed potatoes and gravy, corn';
+  monday_soup = 'Tomato Bisque';
 
-  tuesday_date = '11/28';
-  tuesday_main = 'Chicken Dumplings';
-  tuesday_sides = 'brussel sprouts, mashed potatoes & gravy';
-  tuesday_soup = 'French Onion Soup';
+  tuesday_date = '12/05';
+  tuesday_main = 'Pork Chops';
+  tuesday_sides = 'cauliflower, baked beans';
+  tuesday_soup = 'Mushroom Brie';
 
-  wednesday_date = '11/29';
-  wednesday_main = 'Cabbage Rolls';
-  wednesday_sides = 'macaroni & cheese, rolls';
-  wednesday_soup = 'White Chicken Chili';
+  wednesday_date = '12/06';
+  wednesday_main = 'Beans';
+  wednesday_sides = 'fried potatoes, corn bread';
+  wednesday_soup = 'Vegetable Soup';
 
-  thursday_date = '11/30';
-  thursday_main = 'Chicken Parmesan';
-  thursday_sides = 'California vegetables';
-  thursday_soup = 'Spinach and Artichoke';
+  thursday_date = '12/07';
+  thursday_main = 'Chicken Cavatappi';
+  thursday_sides = 'broccoli and cheese, garlic toast';
+  thursday_soup = 'Potato and Cheese';
 
-  friday_date = '12/01';
-  friday_main = 'Cheese Manicotti';
-  friday_sides = 'broccoli, spinach salad, garlic bread';
-  friday_soup = 'Cream of Broccoli';
+  friday_date = '12/08';
+  friday_main = 'Grouper';
+  friday_sides = 'macaroni and cheese, honey sriracha cheese sticks';
+  friday_soup = 'Chicken Gumbo';
 
-  saturday_date = '12/02';
+  saturday_date = '12/09';
 
-  sunday_date = '12/03';
+  sunday_date = '12/10';
 }
