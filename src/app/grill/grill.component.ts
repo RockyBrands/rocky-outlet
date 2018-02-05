@@ -15,32 +15,32 @@ export class GrillComponent {
   title = 'The Boot Grill';
   intro_image = "./assets/images/boot_grill.jpg";
 
-  monday_date = '12/04';
-  monday_main = 'Chicken Noodles';
-  monday_sides = 'mashed potatoes and gravy, corn';
-  monday_soup = 'Tomato Bisque';
+  monday_date = '02/05';
+  monday_main = "General Tso's Chicken";
+  monday_sides = "broccoli, white rice, fried rice";
+  monday_soup = 'Cream of Broccoli';
 
-  tuesday_date = '12/05';
-  tuesday_main = 'Pork Chops';
-  tuesday_sides = 'cauliflower, baked beans';
-  tuesday_soup = 'Mushroom Brie';
+  tuesday_date = '02/06';
+  tuesday_main = 'Beef Teriyaki Kabobs';
+  tuesday_sides = 'mushrooms, onions, peppers, mixed vegetables, macaroni and cheese';
+  tuesday_soup = 'Mushroom and Brie Bisque';
 
-  wednesday_date = '12/06';
-  wednesday_main = 'Beans';
-  wednesday_sides = 'fried potatoes, corn bread';
-  wednesday_soup = 'Vegetable Soup';
+  wednesday_date = '02/07';
+  wednesday_main = 'Cajun Spaghetti';
+  wednesday_sides = 'California Vegetables, garlic bread';
+  wednesday_soup = 'White Chicken Chili';
 
-  thursday_date = '12/07';
-  thursday_main = 'Chicken Cavatappi';
-  thursday_sides = 'broccoli and cheese, garlic toast';
-  thursday_soup = 'Potato and Cheese';
+  thursday_date = '02/08';
+  thursday_main = 'Chicken and Noodles';
+  thursday_sides = 'mashed potatoes, chicken gravy, corn';
+  thursday_soup = 'Chicken Gumbo';
 
-  friday_date = '12/08';
-  friday_main = 'Grouper';
-  friday_sides = 'macaroni and cheese, honey sriracha cheese sticks';
-  friday_soup = 'Chicken Gumbo';
+  friday_date = '02/09';
+  friday_main = 'Burger Bar';
+  friday_sides = "baked beans, green beans";
+  friday_soup = 'French Onion Soup';
 
-  saturday_date = '12/09';
+  saturday_date = '02/10';
 
-  sunday_date = '12/10';
+  sunday_date = '02/11';
 }
