@@ -15,32 +15,32 @@ export class GrillComponent {
   title = 'The Boot Grill';
   intro_image = "./assets/images/boot_grill.jpg";
 
-  monday_date = '02/05';
-  monday_main = "General Tso's Chicken";
-  monday_sides = "broccoli, white rice, fried rice";
-  monday_soup = 'Cream of Broccoli';
+  monday_date = '02/12';
+  monday_main = 'Spicy Chicken Breast';
+  monday_sides = 'macaroni and cheese, broccoli';
+  monday_soup = 'Chicken Noodle';
 
-  tuesday_date = '02/06';
-  tuesday_main = 'Beef Teriyaki Kabobs';
-  tuesday_sides = 'mushrooms, onions, peppers, mixed vegetables, macaroni and cheese';
-  tuesday_soup = 'Mushroom and Brie Bisque';
+  tuesday_date = '02/13';
+  tuesday_main = 'Loaded Nachos';
+  tuesday_sides = 'pulled pork, taco meat, several toppings';
+  tuesday_soup = 'Vegetable';
 
-  wednesday_date = '02/07';
-  wednesday_main = 'Cajun Spaghetti';
-  wednesday_sides = 'California Vegetables, garlic bread';
-  wednesday_soup = 'White Chicken Chili';
+  wednesday_date = '02/14';
+  wednesday_main = 'Chicken Cavatappi';
+  wednesday_sides = 'California vegetables, roasted potatoes';
+  wednesday_soup = 'Minestrone';
 
-  thursday_date = '02/08';
-  thursday_main = 'Chicken and Noodles';
-  thursday_sides = 'mashed potatoes, chicken gravy, corn';
-  thursday_soup = 'Chicken Gumbo';
+  thursday_date = '02/15';
+  thursday_main = 'Chicken and Dumplings';
+  thursday_sides = 'mashed potatoes, corn';
+  thursday_soup = 'Broccoli Cheese';
 
-  friday_date = '02/09';
-  friday_main = 'Burger Bar';
-  friday_sides = "baked beans, green beans";
-  friday_soup = 'French Onion Soup';
+  friday_date = '02/16';
+  friday_main = 'Yuengling Battered Cod';
+  friday_sides = 'macaroni and cheese, chips, cole slaw';
+  friday_soup = 'Lobster Bisque';
 
-  saturday_date = '02/10';
+  saturday_date = '02/17';
 
-  sunday_date = '02/11';
+  sunday_date = '02/18';
 }

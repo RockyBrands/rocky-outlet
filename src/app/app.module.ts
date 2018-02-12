@@ -1,6 +1,5 @@
 import { BrowserModule }    from '@angular/platform-browser';
 import { NgModule }         from '@angular/core';
-import { NgbModule }          from '@ng-bootstrap/ng-bootstrap';
 import { AlertModule } from 'ngx-bootstrap';
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -34,7 +33,6 @@ import { FourOhFourComponent }  from './fourohfour/fourohfour.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule.forRoot(),
     AlertModule.forRoot(),
     BrowserAnimationsModule,
   ],
