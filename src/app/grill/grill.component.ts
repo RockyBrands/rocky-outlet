@@ -15,32 +15,32 @@ export class GrillComponent {
   title = 'The Boot Grill';
   intro_image = "./assets/images/boot_grill.jpg";
 
-  monday_date = '02/12';
-  monday_main = 'Spicy Chicken Breast';
-  monday_sides = 'macaroni and cheese, broccoli';
-  monday_soup = 'Chicken Noodle';
+  monday_date = '02/19';
+  monday_main = 'Stuffed Shells';
+  monday_sides = 'spinach salad, California vegetables, garlic toast';
+  monday_soup = 'Beef Noodle Soup';
 
-  tuesday_date = '02/13';
-  tuesday_main = 'Loaded Nachos';
-  tuesday_sides = 'pulled pork, taco meat, several toppings';
-  tuesday_soup = 'Vegetable';
+  tuesday_date = '02/20';
+  tuesday_main = 'Bread Boules';
+  tuesday_sides = 'tomato bisque, vegetable soup, broccoli cheese, French onion';
+  tuesday_soup = 'Butternut Squash Bisque';
 
-  wednesday_date = '02/14';
-  wednesday_main = 'Chicken Cavatappi';
-  wednesday_sides = 'California vegetables, roasted potatoes';
+  wednesday_date = '02/21';
+  wednesday_main = 'Meatloaf';
+  wednesday_sides = 'mashed potatoes, gravy, green beans, rolls';
   wednesday_soup = 'Minestrone';
 
-  thursday_date = '02/15';
-  thursday_main = 'Chicken and Dumplings';
-  thursday_sides = 'mashed potatoes, corn';
-  thursday_soup = 'Broccoli Cheese';
+  thursday_date = '02/22';
+  thursday_main = 'Swedish Meatballs';
+  thursday_sides = 'rice, noodles, peas & carrots';
+  thursday_soup = '3 Bean with Ham';
 
-  friday_date = '02/16';
-  friday_main = 'Yuengling Battered Cod';
-  friday_sides = 'macaroni and cheese, chips, cole slaw';
-  friday_soup = 'Lobster Bisque';
+  friday_date = '02/23';
+  friday_main = 'Tuna Noodle Casserole';
+  friday_sides = 'lima beans, corn';
+  friday_soup = 'Clam Chowder';
 
-  saturday_date = '02/17';
+  saturday_date = '02/24';
 
-  sunday_date = '02/18';
+  sunday_date = '02/25';
 }
