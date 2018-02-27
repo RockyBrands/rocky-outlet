@@ -15,32 +15,32 @@ export class GrillComponent {
   title = 'The Boot Grill';
   intro_image = "./assets/images/boot_grill.jpg";
 
-  monday_date = '02/19';
-  monday_main = 'Stuffed Shells';
-  monday_sides = 'spinach salad, California vegetables, garlic toast';
-  monday_soup = 'Beef Noodle Soup';
+  monday_date = '02/26';
+  monday_main = 'Boneless Wing Bar';
+  monday_sides = 'several sauces, celery, green beans';
+  monday_soup = 'Greek Lemon Chicken';
 
-  tuesday_date = '02/20';
-  tuesday_main = 'Bread Boules';
-  tuesday_sides = 'tomato bisque, vegetable soup, broccoli cheese, French onion';
-  tuesday_soup = 'Butternut Squash Bisque';
+  tuesday_date = '02/27';
+  tuesday_main = 'Roast Beef';
+  tuesday_sides = 'mashed potatoes, gravy, bread, corn';
+  tuesday_soup = 'Vegetarian Black Bean';
 
-  wednesday_date = '02/21';
-  wednesday_main = 'Meatloaf';
-  wednesday_sides = 'mashed potatoes, gravy, green beans, rolls';
-  wednesday_soup = 'Minestrone';
+  wednesday_date = '02/28';
+  wednesday_main = 'Turkey Cheddar Wraps';
+  wednesday_sides = 'brussels sprouts, chips';
+  wednesday_soup = 'Cream of Potato with Bacon';
 
-  thursday_date = '02/22';
-  thursday_main = 'Swedish Meatballs';
-  thursday_sides = 'rice, noodles, peas & carrots';
-  thursday_soup = '3 Bean with Ham';
+  thursday_date = '03/01';
+  thursday_main = 'Chicken, Bacon, Ranch';
+  thursday_sides = 'au gratin potatoes, asparagus';
+  thursday_soup = 'Smoky Poblano & Cheese';
 
-  friday_date = '02/23';
-  friday_main = 'Tuna Noodle Casserole';
-  friday_sides = 'lima beans, corn';
-  friday_soup = 'Clam Chowder';
+  friday_date = '03/02';
+  friday_main = 'Shrimp Bar';
+  friday_sides = 'alfredo and shrimp scampi, California vegetables';
+  friday_soup = 'Shrimp and Corn Chowder';
 
-  saturday_date = '02/24';
+  saturday_date = '03/03';
 
-  sunday_date = '02/25';
+  sunday_date = '03/04';
 }
