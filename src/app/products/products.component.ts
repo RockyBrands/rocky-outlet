@@ -25,4 +25,5 @@ export class ProductsComponent {
   products_image_09 = './assets/images/scrubs_mobile.jpg';
   products_image_10 = './assets/images/grill_display_mobile.jpg';
   products_image_11 = './assets/images/home_decor_01_mobile.jpg';
+  products_image_12 = './assets/images/bows_mobile.jpg';
 }

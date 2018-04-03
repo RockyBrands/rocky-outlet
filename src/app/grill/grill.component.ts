@@ -15,32 +15,32 @@ export class GrillComponent {
   title = 'The Boot Grill';
   intro_image = "./assets/images/boot_grill.jpg";
 
-  monday_date = '02/26';
-  monday_main = 'Boneless Wing Bar';
-  monday_sides = 'several sauces, celery, green beans';
-  monday_soup = 'Greek Lemon Chicken';
+  monday_date = '04/02';
+  monday_main = 'Italian Chicken';
+  monday_sides = 'asparagus, au gratin potatoes';
+  monday_soup = 'Stuffed Pepper Soup';
 
-  tuesday_date = '02/27';
-  tuesday_main = 'Roast Beef';
-  tuesday_sides = 'mashed potatoes, gravy, bread, corn';
-  tuesday_soup = 'Vegetarian Black Bean';
+  tuesday_date = '04/03';
+  tuesday_main = 'Spaghetti and Meatballs';
+  tuesday_sides = 'spinach salad, garlic toast';
+  tuesday_soup = 'Minestrone';
 
-  wednesday_date = '02/28';
-  wednesday_main = 'Turkey Cheddar Wraps';
-  wednesday_sides = 'brussels sprouts, chips';
-  wednesday_soup = 'Cream of Potato with Bacon';
+  wednesday_date = '04/04';
+  wednesday_main = "General Tso's Chicken";
+  wednesday_sides = 'white rice, fried rice, broccoli';
+  wednesday_soup = 'Chicken Noodle';
 
-  thursday_date = '03/01';
-  thursday_main = 'Chicken, Bacon, Ranch';
-  thursday_sides = 'au gratin potatoes, asparagus';
-  thursday_soup = 'Smoky Poblano & Cheese';
+  thursday_date = '04/05';
+  thursday_main = 'Country Fried Steak';
+  thursday_sides = 'mashed potatoes, gravy, corn';
+  thursday_soup = 'Beef Noodle';
 
-  friday_date = '03/02';
-  friday_main = 'Shrimp Bar';
-  friday_sides = 'alfredo and shrimp scampi, California vegetables';
-  friday_soup = 'Shrimp and Corn Chowder';
+  friday_date = '04/06';
+  friday_main = 'Pepper Steak';
+  friday_sides = 'snow peas, rice';
+  friday_soup = 'White Chicken Chili';
 
-  saturday_date = '03/03';
+  saturday_date = '04/07';
 
-  sunday_date = '03/04';
+  sunday_date = '04/08';
 }

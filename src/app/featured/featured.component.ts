@@ -13,6 +13,6 @@ export class FeaturedComponent {
   @HostBinding('style.position')  position = 'absolute';
   @HostBinding('style.width')  width = '100%';
   title = 'Featured Product';
-  sale_info = 'Get this, the RKS0238, yes that is THE Venator Rocky Claw is only $77.49. What are you waiting for?!';
-  intro_image = "./assets/images/rks0238_featured.jpg";
+  sale_info = 'Get ready for Spring with the Endevor Point. This is a waterproof hiker that you will not want to miss.';
+  intro_image = "./assets/images/rks0312_featured.jpg";
 }
