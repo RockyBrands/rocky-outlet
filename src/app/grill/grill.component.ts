@@ -15,32 +15,32 @@ export class GrillComponent {
   title = 'The Boot Grill';
   intro_image = "./assets/images/boot_grill.jpg";
 
-  monday_date = '04/02';
-  monday_main = 'Italian Chicken';
-  monday_sides = 'asparagus, au gratin potatoes';
-  monday_soup = 'Stuffed Pepper Soup';
+  monday_date = '04/09';
+  monday_main = 'Chicken Alfredo';
+  monday_sides = 'spinach salad, California veggies, garlic toast';
+  monday_soup = 'Seven Bean Medley';
 
-  tuesday_date = '04/03';
-  tuesday_main = 'Spaghetti and Meatballs';
-  tuesday_sides = 'spinach salad, garlic toast';
-  tuesday_soup = 'Minestrone';
+  tuesday_date = '04/10';
+  tuesday_main = 'Stuffed Green Peppers';
+  tuesday_sides = 'mashed potatoes, gravy, mixed vegetables';
+  tuesday_soup = 'Broccoli Cheese';
 
-  wednesday_date = '04/04';
-  wednesday_main = "General Tso's Chicken";
-  wednesday_sides = 'white rice, fried rice, broccoli';
-  wednesday_soup = 'Chicken Noodle';
+  wednesday_date = '04/11';
+  wednesday_main = 'Grouper';
+  wednesday_sides = 'macaroni & cheese, cole slaw';
+  wednesday_soup = 'Cheddar Baked Potato';
 
-  thursday_date = '04/05';
-  thursday_main = 'Country Fried Steak';
-  thursday_sides = 'mashed potatoes, gravy, corn';
-  thursday_soup = 'Beef Noodle';
+  thursday_date = '04/12';
+  thursday_main = 'Pizza Bar';
+  thursday_sides = 'supreme, pepperoni, veggie, cheese';
+  thursday_soup = 'Baja Chicken Enchilada';
 
-  friday_date = '04/06';
-  friday_main = 'Pepper Steak';
-  friday_sides = 'snow peas, rice';
-  friday_soup = 'White Chicken Chili';
+  friday_date = '04/13';
+  friday_main = 'Fried Chicken';
+  friday_sides = 'mashed potatoes, gravy, corn';
+  friday_soup = 'Stuffed Green Pepper';
 
-  saturday_date = '04/07';
+  saturday_date = '04/14';
 
-  sunday_date = '04/08';
+  sunday_date = '04/15';
 }
