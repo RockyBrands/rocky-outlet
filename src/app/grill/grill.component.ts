@@ -15,32 +15,32 @@ export class GrillComponent {
   title = 'The Boot Grill';
   intro_image = "./assets/images/boot_grill.jpg";
 
-  monday_date = '04/09';
-  monday_main = 'Chicken Alfredo';
-  monday_sides = 'spinach salad, California veggies, garlic toast';
-  monday_soup = 'Seven Bean Medley';
+  monday_date = '05/07';
+  monday_main = 'Burger Bar';
+  monday_sides = 'macaroni & cheese, baked beans';
+  monday_soup = 'Minestrone';
 
-  tuesday_date = '04/10';
-  tuesday_main = 'Stuffed Green Peppers';
-  tuesday_sides = 'mashed potatoes, gravy, mixed vegetables';
-  tuesday_soup = 'Broccoli Cheese';
+  tuesday_date = '05/08';
+  tuesday_main = 'Baked Potato Bar';
+  tuesday_sides = 'broccoli';
+  tuesday_soup = 'Chicken and Dumpling';
 
-  wednesday_date = '04/11';
-  wednesday_main = 'Grouper';
-  wednesday_sides = 'macaroni & cheese, cole slaw';
-  wednesday_soup = 'Cheddar Baked Potato';
+  wednesday_date = '05/09';
+  wednesday_main = 'Lasagna';
+  wednesday_sides = 'spinach salad, California vegetables, garlic toast';
+  wednesday_soup = 'Tomato Bisque';
 
-  thursday_date = '04/12';
-  thursday_main = 'Pizza Bar';
-  thursday_sides = 'supreme, pepperoni, veggie, cheese';
-  thursday_soup = 'Baja Chicken Enchilada';
+  thursday_date = '05/10';
+  thursday_main = 'Salisbury Steak';
+  thursday_sides = 'mashed potatoes, gravy, corn';
+  thursday_soup = 'Cream of Potato';
 
-  friday_date = '04/13';
-  friday_main = 'Fried Chicken';
-  friday_sides = 'mashed potatoes, gravy, corn';
-  friday_soup = 'Stuffed Green Pepper';
+  friday_date = '05/11';
+  friday_main = "General Tso's Chicken";
+  friday_sides = "broccoli, white rice, fried rice";
+  friday_soup = 'Tomato Tortellini';
 
-  saturday_date = '04/14';
+  saturday_date = '05/12';
 
-  sunday_date = '04/15';
+  sunday_date = '05/13';
 }
