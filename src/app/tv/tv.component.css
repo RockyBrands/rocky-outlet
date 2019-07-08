@@ -1,0 +1,11 @@
+/* Section styling ========================================================== */
+section.section {
+  width:100%;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+section#menus {
+  background: #ffffff;
+}
+/* End of Section styling =================================================== */

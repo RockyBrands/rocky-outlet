@@ -1,5 +1,6 @@
 import { Component, HostBinding } from '@angular/core';
 import { slideInDownAnimation } from './../animations';
+import { Meta, Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'attractions',
@@ -8,6 +9,11 @@ import { slideInDownAnimation } from './../animations';
   animations: [ slideInDownAnimation ],
 })
 export class AttractionsComponent {
+  constructor(private meta: Meta, private titleService: Title) {
+   this.meta.addTag({ name: 'description', content: 'Athens and Hocking counties are home to many activities. Spend a night in a cabin, float down the river in a kayak, or head to Casa for trivia.' });
+   this.titleService.setTitle( 'Attractions' );
+  }
+
   @HostBinding('@routeAnimation') routeAnimation = true;
   @HostBinding('style.display')   display = 'block';
   @HostBinding('style.position')  position = 'absolute';

@@ -1,5 +1,6 @@
 import { Component, HostBinding } from '@angular/core';
 import { slideInDownAnimation } from './../animations';
+import { Meta, Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'products',
@@ -8,12 +9,17 @@ import { slideInDownAnimation } from './../animations';
   animations: [ slideInDownAnimation ],
 })
 export class ProductsComponent {
+  constructor(private meta: Meta, private titleService: Title) {
+   this.meta.addTag({ name: 'description', content: 'Come to the Rocky Outlet to find a wide variety of products including footwear, apparel, camping gear, firearms, and more.' });
+   this.titleService.setTitle( 'Products' );
+  }
+
   @HostBinding('@routeAnimation') routeAnimation = true;
   @HostBinding('style.display')   display = 'block';
   @HostBinding('style.position')  position = 'absolute';
   @HostBinding('style.width')  width = '100%';
   title = 'Products';
-  intro_image = './assets/images/durango_kids_products.jpg';
+  intro_image = './assets/images/rocky_shirts_banner.jpg';
   products_image_01 = './assets/images/georgia_boot_mobile.jpg';
   products_image_02 = './assets/images/carhartt_coats_mobile.jpg';
   products_image_03 = './assets/images/durango_boots_mobile.jpg';
@@ -26,4 +32,6 @@ export class ProductsComponent {
   products_image_10 = './assets/images/grill_display_mobile.jpg';
   products_image_11 = './assets/images/home_decor_01_mobile.jpg';
   products_image_12 = './assets/images/bows_mobile.jpg';
+  products_image_13 = './assets/images/ammo_mobile.jpg';
+  products_image_14 = './assets/images/firearms.jpg';
 }

@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router, NavigationEnd } from '@angular/router';
+import { NavbarService } from './navbar/navbar.service';
 
 @Component({
   selector: 'app-root',
@@ -7,16 +8,20 @@ import { Router, NavigationEnd } from '@angular/router';
   styleUrls: ['./app.component.css']
 })
 
-export class AppComponent {
-    constructor(private router: Router) { }
+export class AppComponent implements OnInit{
+    constructor( public nav: NavbarService, private router: Router ) { }
 
     ngOnInit() {
+      this.nav.show();
+      this.nav.doSomethingElseUseful();
+
         this.router.events.subscribe((evt) => {
             if (!(evt instanceof NavigationEnd)) {
                 return;
             }
             window.scrollTo(0, 0)
         });
+
     }
 
 }

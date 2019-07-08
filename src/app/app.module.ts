@@ -1,10 +1,11 @@
-import { BrowserModule }    from '@angular/platform-browser';
+import { BrowserModule, Title }    from '@angular/platform-browser';
 import { NgModule }         from '@angular/core';
 import { AlertModule } from 'ngx-bootstrap';
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AppRoutingModule } from './app-routing.module';
+import { NavbarService } from './navbar/navbar.service';
 
 import { AppComponent }     from './app.component';
 import { NavbarComponent }  from './navbar/navbar.component';
@@ -16,6 +17,28 @@ import { FeaturedComponent } from './featured/featured.component';
 import { ReturnComponent } from './return/return.component';
 import { FooterComponent }  from './footer/footer.component';
 import { FourOhFourComponent }  from './fourohfour/fourohfour.component';
+import { TvComponent }  from './tv/tv.component';
+import { TvDirective }          from './tv/tv.directive';
+import { TvService }            from './tv/tv.service';
+import { TvPicComponent }            from './tv/tv-pic.component';
+import { TvBannerComponent }            from './tv/tv-banner.component';
+import { TvDirectiveTwo }          from './tv/tv-two.directive';
+import { TvServiceTwo }            from './tv/tv-two.service';
+import { TvPicTwoComponent }            from './tv/tv-pic-two.component';
+import { TvBannerTwoComponent }            from './tv/tv-banner-two.component';
+
+import { LunchComponent } from './tv/lunch/lunch.component';
+import { BreakfastComponent } from './tv/breakfast/breakfast.component';
+import { BurgerComponent } from './tv/burger/burger.component';
+import { BurgersComponent } from './tv/burgers/burgers.component';
+import { DessertsComponent } from './tv/desserts/desserts.component';
+import { DinnerComponent } from './tv/dinner/dinner.component';
+import { DrinksComponent } from './tv/drinks/drinks.component';
+import { HealthyComponent } from './tv/healthy/healthy.component';
+import { KidsComponent } from './tv/kids/kids.component';
+import { SandwichesComponent } from './tv/sandwiches/sandwiches.component';
+import { SidesComponent } from './tv/sides/sides.component';
+
 
 @NgModule({
   declarations: [
@@ -29,6 +52,24 @@ import { FourOhFourComponent }  from './fourohfour/fourohfour.component';
     ReturnComponent,
     FooterComponent,
     FourOhFourComponent,
+    TvComponent,
+    TvDirective,
+    TvPicComponent,
+    TvBannerComponent,
+    TvDirectiveTwo,
+    TvPicTwoComponent,
+    TvBannerTwoComponent,
+    LunchComponent,
+    BreakfastComponent,
+    BurgerComponent,
+    BurgersComponent,
+    DessertsComponent,
+    DinnerComponent,
+    DrinksComponent,
+    HealthyComponent,
+    KidsComponent,
+    SandwichesComponent,
+    SidesComponent
   ],
   imports: [
     BrowserModule,
@@ -36,10 +77,21 @@ import { FourOhFourComponent }  from './fourohfour/fourohfour.component';
     AlertModule.forRoot(),
     BrowserAnimationsModule,
   ],
-  providers: [],
+  providers: [
+    Title,
+    TvService,
+    TvServiceTwo,
+    NavbarService
+  ],
+  entryComponents: [
+    TvPicComponent,
+    TvPicTwoComponent
+  ],
   bootstrap: [
     AppComponent,
     NavbarComponent,
   ]
 })
-export class AppModule { }
+export class AppModule {
+  constructor() {}
+}

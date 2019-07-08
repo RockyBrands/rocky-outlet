@@ -1,5 +1,6 @@
 import { Component, HostBinding } from "@angular/core";
 import { slideInDownAnimation } from './../animations';
+import { Meta, Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'home',
@@ -9,6 +10,11 @@ import { slideInDownAnimation } from './../animations';
 })
 
 export class HomeComponent {
+  constructor(private meta: Meta, private titleService: Title) {
+   this.meta.addTag({ name: 'description', content: 'Come to the Rocky Outlet to find a wide variety of products including footwear, apparel, camping gear, firearms, and more.' });
+   this.titleService.setTitle( 'Rocky Outlet' );
+  }
+
   @HostBinding('@routeAnimation') routeAnimation = true;
   @HostBinding('style.display')   display = 'block';
   @HostBinding('style.position')  position = 'absolute';
