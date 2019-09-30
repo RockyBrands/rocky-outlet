@@ -21,37 +21,37 @@ export class GrillComponent {
   title = 'The Boot Grill';
   intro_image = "./assets/images/boot_grill.jpg";
 
-  monday_date = '09/23';
-  monday_main = "Salmon";
-  monday_sides = 'loaded mashed potatoes, and asparagus';
-  monday_soup = "Chicken and Wild Rice";
+  monday_date = '09/30';
+  monday_main = "Burger Bar";
+  monday_sides = 'a fan favorite!';
+  monday_soup = "White Chicken Chili";
 
-  tuesday_date = '09/24';
-  tuesday_main = "Fried Pork Chops";
-  tuesday_sides = "au gratin potatoes, and mixed vegetables";
-  tuesday_soup = 'Beef Noodle';
+  tuesday_date = '10/01';
+  tuesday_main = "Bourbon Chicken";
+  tuesday_sides = "rice, and broccoli";
+  tuesday_soup = 'Vegetable Soup';
 
-  wednesday_date = '09/25';
-  wednesday_main = "General Tso's Shrimp";
-  wednesday_sides = 'rice, broccoli, and egg rolls';
-  wednesday_soup = 'White Chicken Chili';
+  wednesday_date = '10/02';
+  wednesday_main = "Beef Stroganoff";
+  wednesday_sides = 'noodles, mashed potatoes, and corn';
+  wednesday_soup = 'Broccoli Cheese';
 
-  thursday_date = '09/26';
-  thursday_main = 'Chicken Cavatappi';
-  thursday_sides = 'garlic toast, and California vegetables';
-  thursday_soup = 'French Onion';
+  thursday_date = '10/03';
+  thursday_main = 'Chicken Alfredo';
+  thursday_sides = 'garlic toast, and spinach salad';
+  thursday_soup = 'Chicken Noodle';
 
-  friday_date = '09/27';
-  friday_main = 'BBQ Pulled Chicken';
-  friday_sides = 'mac & cheese, and hearty cole slaw';
-  friday_soup = 'Broccoli Cheese';
+  friday_date = '10/04';
+  friday_main = 'Turkey';
+  friday_sides = 'mashed potatoes, gravy, and green beans';
+  friday_soup = 'Pumpkin & Roasted Apple with Bacon';
 
-  saturday_date = '09/28';
+  saturday_date = '10/05';
 
-  sunday_date = '09/29';
+  sunday_date = '10/06';
 
-  burger_name = 'The Bayou Burger';
-  burger_pic = './assets/images/bayou-burger.jpg';
-  burger_description = 'We start off with a Sunny Bun, and we add the 1/3lb. non-GMO burger patty from Symmes Creek Ranch in Patriot Ohio, seasoned with cajun seasoning. We top that thing with gouda cheese, onion, pickle, lettuce, and tomato. We serve it up with a side of gator bits, breaded and seasoned with old bay. Consider adding hot sauce to your gator bites to give them back a little of their BITE.';
+  burger_name = 'The Chicken Fried';
+  burger_pic = './assets/images/chicky-chicky-fry-fry.jpg';
+  burger_description = "We start off with a Sunny Bun, and we add the 1/4lb Tyson no antibiotics added, breaded chicken breast patty, topped with pickles. We serve it up with sidewinder fries. It will make you wish you had a cold beer on a Friday night! It will also make your pants fit not quite right, but we don't have to think about that.";
 }
 //then we add the 1/3lb. non-GMO burger patty from Symmes Creek Ranch in Patriot Ohio, seasoned with a house blend of spices. We top that tasty boi with bacon, cheddar cheese, our house made Bubba's Kickin' Q sauce, lettuce, tomato, pickle, and onion. Add your favorite side or stick with the delicious salty crunch of Conn’s Potato chips, and it is a meal not soon to be forgotten!
