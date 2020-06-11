@@ -1,0 +1,75 @@
+/* Footer */
+footer#footer {
+	background: #f0f2ed;
+	text-align: center;
+}
+
+div.row {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+p#copy {
+	margin-top: 30px;
+}
+
+#facebook {
+	width: 40px;
+	height: 40px;
+	margin-top: 20px;
+	padding-right: 7.5px;
+	fill: #282828;
+	transition: all 0.7s linear;
+	-webkit-transition: all 0.7s linear;
+}
+
+#facebook:hover {
+	fill: #8a1913;
+	transition: all 0.7s linear;
+	-webkit-transition: all 0.7s linear;
+}
+
+#twitter {
+	width: 40px;
+	height: 40px;
+	margin-top: 20px;
+	padding-left: 7.5px;
+	fill: #282828;
+	transition: all 0.7s linear;
+	-webkit-transition: all 0.7s linear;
+}
+
+#twitter:hover {
+	fill: #8a1913;
+	transition: all 0.7s linear;
+	-webkit-transition: all 0.7s linear;
+}
+
+/*@keyframes dancing_bird {
+	0%, 100% {
+		transform: rotate(0deg) translateX(0) translateY(0px);
+	}
+
+	25% {
+		transform: rotate(-50deg) translateX(10px) translateY(-10px);
+	}
+
+	75% {
+		transform: rotate(30deg) translateX(0px) translateY(0px);
+	}
+}*/
+
+.internal_link {
+  display: inline-block;
+  margin-left: 5px;
+  -webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+	text-decoration: none;
+}
+
+.internal_link:hover {
+  margin-left: 20px;
+  margin-right: -10px;
+}

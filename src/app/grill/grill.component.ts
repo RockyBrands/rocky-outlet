@@ -21,37 +21,51 @@ export class GrillComponent {
   title = 'The Boot Grill';
   intro_image = "./assets/images/boot_grill.jpg";
 
-  monday_date = '02/10';
-  monday_main = "Free drink with purchase of any sandwich and a side";
- // monday_sides = 'chips, and cole slaw';
-  monday_soup = "Chicken Tortilla";
+  monday_date = '06/08';
+  monday_main = "Spicy Chicken Sandwich";
+  monday_sides = "with chips";
+  // monday_soup = "White Chicken Chili";
+  // monday_main_too = "Turkey";
+  // monday_sides_too = "with mashed potatoes, gravy, and green beans";
 
-  tuesday_date = '02/11';
-  tuesday_main = "$1.00 off any side with purchase of a sandwich";
- // tuesday_sides = "mashed potatoes, gravy, and corn";
-  tuesday_soup = 'Italian Wedding';
+  tuesday_date = '06/09';
+  tuesday_main = "Grilled Cheese";
+  tuesday_sides = "with chili";
+  //tuesday_soup = 'Beef Barley';
+  //tuesday_main_too = "BLT on Wheat";
+  //tuesday_sides_too = "with sun chips";
 
-  wednesday_date = '02/12';
-  wednesday_main = "Turkey";
-  wednesday_sides = "mashed potatoes, and gravy";
-  wednesday_soup = "Minestrone";
+  wednesday_date = '06/10';
+  wednesday_main = 'Philly Cheesesteak';
+  wednesday_sides = "with tater tots";
+  //wednesday_soup = "Potato Chophouse";
+  //wednesday_main_too = "Bang Bang Shrimp";
+  //wednesday_sides_too = "with cole slaw";
 
-  thursday_date = '02/13';
-  thursday_main = 'Add fries for $1.00!';
-  //thursday_sides = 'au gratin potatoes, and green beans';
-  thursday_soup = 'French Onion';
+  thursday_date = '06/11';
+  thursday_main = 'Chicken & Noodles';
+  thursday_sides = 'with mashed potatoes, and green beans';
+  //thursday_soup = 'Chicken Tortilla';
+  //thursday_main_too = "Meatloaf";
+  //thursday_sides_too = "with mashed potatoes, and corn";
 
-  friday_date = '02/14';
-  friday_main = 'Chili Cheese Dog';
-  friday_sides = 'with fries, and a drink';
-  friday_soup = 'Beef Barley';
+  friday_date = '06/12';
+  friday_main = '1/3lb Double Cheeseburger';
+  friday_sides = 'with fries';
+  //friday_soup = 'Minestrone';
+  //friday_main_too = "Lasagna";
+  //friday_sides_too = "with garlic toast";
 
-  saturday_date = '02/15';
+  saturday_date = '06/13';
+  // saturday_main_too = "Johnny Marzetti";
+  // saturday_sides_too = "with garlic bread, and salad";
 
-  sunday_date = '02/16';
+  sunday_date = '06/14';
+  sunday_main = 'CLOSED';
+  // sunday_sides = '';
 
-  burger_name = 'The Mystery Machine';
-  burger_pic = './assets/images/mystery-machine.jpg';
-  burger_description = "We take two slices of sourdough bread, slather them in butter, and toast them. We add a half pound of chopped steak then smother it with grilled onions, grilled mushrooms, and swiss cheese. Add your favorite side or stick with the delicious salty crunch of Conn's potato chips and it is a meal not soon to be forgotten!";
+  // burger_name = 'The Chicken Cordon Bleu Melt';
+  // burger_pic = './assets/images/ccbleumelt.jpg';
+  // burger_description = "We start off with two slices of toasted sourdough, then we add swiss cheese, grilled chicken, and ham, topped with lettuce and tomato. Add your favorite side or stick with the delicious salty crunch of Conn's potato chips and it is a meal not soon to be forgotten!";
 }
 //then we add the 1/3lb. non-GMO burger patty from Symmes Creek Ranch in Patriot Ohio, seasoned with a house blend of spices. We top that tasty boi with bacon, cheddar cheese, our house made Bubba's Kickin' Q sauce, lettuce, tomato, pickle, and onion. Add your favorite side or stick with the delicious salty crunch of Conn’s Potato chips, and it is a meal not soon to be forgotten!

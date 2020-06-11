@@ -100,6 +100,10 @@ div#introduction p {
 
 
 /* Image / Text / Rest of the Page / Class Styling ========================== */
+.covfefe {
+  display: inline-block;
+}
+
 .half_text {
   text-align: center;
   padding-top: 60px;

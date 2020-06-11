@@ -5,21 +5,18 @@ export const slideInDownAnimation: AnimationEntryMetadata =
   trigger('routeAnimation', [
     state('*',
       style({
-        opacity: 1,
-        transform: 'translateX(0)',
+        opacity: 1
       })
     ),
     transition(':enter', [
       style({
-        opacity: 0,
-        transform: 'translateX(-100%)'
+        opacity: 0
       }),
       animate('0.5s linear')
     ]),
     transition(':leave', [
       animate('0.2s linear', style({
-        opacity: 0,
-        transform: 'translateX(100%)'
+        opacity: 0
       }))
     ])
   ]);

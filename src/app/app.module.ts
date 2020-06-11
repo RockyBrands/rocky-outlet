@@ -16,6 +16,8 @@ import { GrillComponent } from './grill/grill.component';
 import { FeaturedComponent } from './featured/featured.component';
 import { ReturnComponent } from './return/return.component';
 import { FooterComponent }  from './footer/footer.component';
+import { GrillFooterComponent }  from './grill-footer/footer.component';
+
 import { FourOhFourComponent }  from './fourohfour/fourohfour.component';
 import { TvComponent }  from './tv/tv.component';
 import { TvDirective }          from './tv/tv.directive';
@@ -51,6 +53,7 @@ import { SidesComponent } from './tv/sides/sides.component';
     FeaturedComponent,
     ReturnComponent,
     FooterComponent,
+    GrillFooterComponent,
     FourOhFourComponent,
     TvComponent,
     TvDirective,
