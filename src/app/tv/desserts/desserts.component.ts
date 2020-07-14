@@ -10,7 +10,7 @@ import { Meta, Title } from '@angular/platform-browser';
 })
 export class DessertsComponent {
   constructor(private meta: Meta, private titleService: Title) {
-   this.meta.addTag({ name: 'description', content: 'Enjoy a popular bison burger, the daily special, or order off the menu at The Boot Grill. Located inside the Rocky Outlet Store in Nelsonville, Ohio.' });
+   this.meta.addTag({ name: 'description', content: 'Enjoy a popular bison burger, the daily special, or order off the menu at The Boot Grill. Located inside the Rocky Outdoor Gear Store in Nelsonville, Ohio.' });
    this.titleService.setTitle( 'The Boot Grill TV Menu' );
   }
 

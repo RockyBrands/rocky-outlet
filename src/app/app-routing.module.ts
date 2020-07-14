@@ -10,6 +10,7 @@ import { FeaturedComponent } from './featured/featured.component';
 import { ReturnComponent } from './return/return.component';
 import { FourOhFourComponent }  from './fourohfour/fourohfour.component';
 import { TvComponent }  from './tv/tv.component';
+import { EventsComponent }  from './events/events.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
@@ -20,6 +21,7 @@ const routes: Routes = [
   { path: 'featured', component: FeaturedComponent },
   { path: 'return', component: ReturnComponent },
   { path: 'tv', component: TvComponent },
+  { path: 'events', component: EventsComponent },
   { path: '**', component: FourOhFourComponent }
 ];
 

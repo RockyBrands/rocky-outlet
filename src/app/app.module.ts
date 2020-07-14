@@ -3,9 +3,11 @@ import { NgModule }         from '@angular/core';
 import { AlertModule } from 'ngx-bootstrap';
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { FormsModule }   from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { NavbarService } from './navbar/navbar.service';
+import { EmailService } from './email.service';
 
 import { AppComponent }     from './app.component';
 import { NavbarComponent }  from './navbar/navbar.component';
@@ -17,6 +19,8 @@ import { FeaturedComponent } from './featured/featured.component';
 import { ReturnComponent } from './return/return.component';
 import { FooterComponent }  from './footer/footer.component';
 import { GrillFooterComponent }  from './grill-footer/footer.component';
+import { FormComponent }  from './form/form.component';
+import { EventsComponent }  from './events/events.component';
 
 import { FourOhFourComponent }  from './fourohfour/fourohfour.component';
 import { TvComponent }  from './tv/tv.component';
@@ -72,19 +76,23 @@ import { SidesComponent } from './tv/sides/sides.component';
     HealthyComponent,
     KidsComponent,
     SandwichesComponent,
-    SidesComponent
+    SidesComponent,
+    FormComponent,
+    EventsComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     AlertModule.forRoot(),
     BrowserAnimationsModule,
+    FormsModule
   ],
   providers: [
     Title,
     TvService,
     TvServiceTwo,
-    NavbarService
+    NavbarService,
+    EmailService
   ],
   entryComponents: [
     TvPicComponent,

@@ -10,7 +10,7 @@ import { Meta, Title } from '@angular/platform-browser';
 })
 export class ProductsComponent {
   constructor(private meta: Meta, private titleService: Title) {
-   this.meta.addTag({ name: 'description', content: 'Come to the Rocky Outlet to find a wide variety of products including footwear, apparel, camping gear, firearms, and more.' });
+   this.meta.addTag({ name: 'description', content: 'Come to the Rocky Outdoor Gear Store to find a wide variety of products including footwear, apparel, camping gear, firearms, and more.' });
    this.titleService.setTitle( 'Products' );
   }
 
@@ -29,8 +29,7 @@ export class ProductsComponent {
   products_image_07 = './assets/images/cr_sneakers_mobile.jpg';
   products_image_08 = './assets/images/columbia_shoes_mobile.jpg';
   products_image_09 = './assets/images/scrubs_mobile.jpg';
-  products_image_10 = './assets/images/grill_display_mobile.jpg';
-  products_image_11 = './assets/images/home_decor_01_mobile.jpg';
+  products_image_10 = './assets/images/camping-equipment.jpg';
   products_image_12 = './assets/images/bows_mobile.jpg';
   products_image_13 = './assets/images/ammo_mobile.jpg';
   products_image_14 = './assets/images/firearms.jpg';

@@ -6,6 +6,32 @@ header#main_header	{
 	z-index: 10000;
 }
 
+header#desk_header	{
+	height: 80px;
+	width: 100%;
+	position: fixed;
+  z-index: 10000;
+  display: none;
+}
+
+nav#desk_nav {
+  background: #fff;
+  text-align: right;
+  border-bottom: 1px solid #fdfdfd;
+}
+
+nav#desk_nav ul {
+  text-decoration: none;
+  padding: 20px;
+  margin-bottom: 0;
+}
+
+nav#desk_nav ul li {
+  display: inline-block;
+  margin-left: 20px;
+  font-size: 1.5em;
+}
+
 div#logo {
   width: 70px;
   height: 70px;
@@ -93,7 +119,9 @@ div#logo {
 /* Dropdown Menu  Navigation================================================= */
 div#submenu	{
 	width: 100%;
-	height: 100vh;
+  height: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
 	background-color: #ffffff;
 }
 
@@ -118,7 +146,7 @@ div#submenu	{
 }
 
 div#menu_width {
-	width: 150px;
+	width: 200px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -177,12 +205,8 @@ div.nav-menu-column li	{
 /* Media Queries ============================================================ */
 /* Tablet ======================================= */
 @media screen and (min-width: 768px) {
-  div#submenu	{
-  	height: 40vh;
-  }
-
 	div#menu_width {
-		width: 600px;
+		width: 400px;
 		margin-top: 90px;
 	}
 
@@ -197,12 +221,10 @@ div.nav-menu-column li	{
 
 /* Desktop ====================================== */
 @media screen and (min-width: 992px) {
-  div#submenu	{
-  	height: 40vh;
+	header#main_header	{
+    display: none;
   }
-
-	div#menu_width {
-		width: 800px;
-		margin-top: 60px;
-	}
+  header#desk_header	{
+    display: block;
+  }
 }

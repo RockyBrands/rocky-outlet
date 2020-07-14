@@ -10,7 +10,7 @@ import { Meta, Title } from '@angular/platform-browser';
 })
 export class FeaturedComponent {
   constructor(private meta: Meta, private titleService: Title) {
-   this.meta.addTag({ name: 'description', content: 'Find the best featured door busters currently being offered at the Rocky Outlet.' });
+   this.meta.addTag({ name: 'description', content: 'Find the best featured door busters currently being offered at the Rocky Outdoor Gear Store.' });
    this.titleService.setTitle( 'Featured Product' );
   }
 
@@ -19,6 +19,7 @@ export class FeaturedComponent {
   @HostBinding('style.position')  position = 'absolute';
   @HostBinding('style.width')  width = '100%';
   title = 'Featured Product';
-  sale_info = "Don't miss the Rocky Ranger for only $99.99! Wow, what a deal... Would you just look at it?";
-  intro_image = "./assets/images/rks0304_featured.jpg";
+  sale_info = "Be sure to check back every now and again to see some of our favorites.";
+  intro_image = "./assets/images/grilling-camping-featured.jpg";
+  about_featured = "We have everything you need to make this summer great. I'm talking grills, tents, firepits, lanterns, chairs, and much more.";
 }

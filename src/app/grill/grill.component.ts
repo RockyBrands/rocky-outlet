@@ -10,7 +10,7 @@ import { Meta, Title } from '@angular/platform-browser';
 })
 export class GrillComponent {
   constructor(private meta: Meta, private titleService: Title) {
-   this.meta.addTag({ name: 'description', content: 'Enjoy a popular bison burger, the daily special, or order off the menu at The Boot Grill. Located inside the Rocky Outlet Store in Nelsonville, Ohio.' });
+   this.meta.addTag({ name: 'description', content: 'Enjoy a popular bison burger, the daily special, or order off the menu at The Boot Grill. Located inside the Rocky Outdoor Gear Store in Nelsonville, Ohio.' });
    this.titleService.setTitle( 'The Boot Grill' );
   }
 
@@ -21,46 +21,46 @@ export class GrillComponent {
   title = 'The Boot Grill';
   intro_image = "./assets/images/boot_grill.jpg";
 
-  monday_date = '06/08';
-  monday_main = "Spicy Chicken Sandwich";
-  monday_sides = "with chips";
+  monday_date = '07/13';
+  monday_main = "Johnny Marzetti";
+  monday_sides = "with garlic toast";
   // monday_soup = "White Chicken Chili";
   // monday_main_too = "Turkey";
   // monday_sides_too = "with mashed potatoes, gravy, and green beans";
 
-  tuesday_date = '06/09';
-  tuesday_main = "Grilled Cheese";
-  tuesday_sides = "with chili";
+  tuesday_date = '07/14';
+  tuesday_main = "Sweet 'N Sour Chicken";
+  tuesday_sides = "with rice, and broccoli";
   //tuesday_soup = 'Beef Barley';
   //tuesday_main_too = "BLT on Wheat";
   //tuesday_sides_too = "with sun chips";
 
-  wednesday_date = '06/10';
-  wednesday_main = 'Philly Cheesesteak';
-  wednesday_sides = "with tater tots";
+  wednesday_date = '07/15';
+  wednesday_main = 'Pulled Pork Sandwich';
+  wednesday_sides = "with cole slaw";
   //wednesday_soup = "Potato Chophouse";
   //wednesday_main_too = "Bang Bang Shrimp";
   //wednesday_sides_too = "with cole slaw";
 
-  thursday_date = '06/11';
-  thursday_main = 'Chicken & Noodles';
+  thursday_date = '07/16';
+  thursday_main = 'Homemade Chicken & Noodles';
   thursday_sides = 'with mashed potatoes, and green beans';
   //thursday_soup = 'Chicken Tortilla';
   //thursday_main_too = "Meatloaf";
   //thursday_sides_too = "with mashed potatoes, and corn";
 
-  friday_date = '06/12';
+  friday_date = '07/17';
   friday_main = '1/3lb Double Cheeseburger';
   friday_sides = 'with fries';
   //friday_soup = 'Minestrone';
   //friday_main_too = "Lasagna";
   //friday_sides_too = "with garlic toast";
 
-  saturday_date = '06/13';
-  // saturday_main_too = "Johnny Marzetti";
-  // saturday_sides_too = "with garlic bread, and salad";
+  saturday_date = '07/18';
+  saturday_main_too = "1/2lb Boneless Wings";
+  saturday_sides_too = "with tots";
 
-  sunday_date = '06/14';
+  sunday_date = '07/19';
   sunday_main = 'CLOSED';
   // sunday_sides = '';
 

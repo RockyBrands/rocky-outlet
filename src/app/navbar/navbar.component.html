@@ -47,7 +47,7 @@
         <div id="submenu" class="submenu container" dropdown [ngClass]="status ? 'open' : toggle">
           <div class="row">
             <div id="menu_width">
-              <div id="explore" class="nav-menu-column col-xs-12 col-sm-4">
+              <div id="explore" class="nav-menu-column col-xs-12 col-sm-6">
                 <h2>EXPLORE</h2>
                 <ul>
                   <li (click)="clickEvent()"><a routerLink="/products" routerLinkActive="active">Products</a></li>
@@ -56,23 +56,69 @@
                   <li (click)="clickEvent()"><a routerLink="/featured" routerLinkActive="active">Featured Product</a></li>
                 </ul>
               </div>
-              <div id="discover" class="nav-menu-column col-xs-12 col-sm-4">
-                <h2>DISCOVER</h2>
-                <ul>
-                  <li><a href="http://athensohio.com/" target="_blank">Athens, Ohio</a></li>
-                  <li><a href="http://www.stuartsoperahouse.org/" target="_blank">Stuart's Opera House</a></li>
-                  <li><a href="http://hockinghills.com/" target="_blank">Hocking Hills</a></li>
-                </ul>
-              </div>
-              <div id="shop" class="nav-menu-column col-xs-12 col-sm-4">
-                <h2>SHOP</h2>
-                <ul>
-                  <li (click)="clickEvent()"><a href="http://www.rockyboots.com/" target="_blank">Rocky Boots</a></li>
-                  <li (click)="clickEvent()"><a href="http://www.georgiaboot.com/" target="_blank">Georgia Boots</a></li>
-                  <li (click)="clickEvent()"><a href="http://www.durangoboots.com/" target="_blank">Durango Boots</a></li>
-                </ul>
+              <div id="shop" class="nav-menu-column col-xs-12 col-sm-6">
+                <h2>CONTACT US</h2>
+                <p style="margin-bottom:0;"><strong>Store Hours</strong></p>
+                <p style="margin-bottom:5px;">Monday - Saturday<br>10:00am - 7:00pm</p>
+                <p>Sunday<br>10:00am - 6:00pm</p>
+                <a class="internal_href" href="tel:17407533130">
+                  <h3 class="internal_link">
+                    (740) 753-3130
+                  </h3>
+                </a>
               </div>
             </div>
-          </div>
+          </div>        
         </div>
       </header>
+
+      <!--Desktop Header-->
+      <header id="desk_header">
+        <div id="logo">
+          <a routerLink="/home">
+            <!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In  -->
+            <svg version="1.1"
+               xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+               x="0px" y="0px" width="50px" height="50px" viewBox="0 0 71.5 76.5" style="enable-background:new 0 0 71.5 76.5;"
+               xml:space="preserve">
+            <style type="text/css">
+              .st0{fill:#282828;}
+            </style>
+            <defs>
+            </defs>
+            <path class="st0" d="M71.5,76.5L58.3,48.8c0.6-1.4,1-3.2,1.2-5.4c0.3-3.1-0.5-7.1-2.5-10.8c-2.9-5.2-7.4-7.5-10.6-8.8L38.9,8.4
+              l-6.4,6.9L22.8,0l-6.7,24.8c-0.2,0-0.4,0-0.7,0c-3.9,0-7.3,0.2-7.9,10.9C7.4,37,8.3,40.9,8.6,42c0.7,3.2,1.1,6-1.4,7.3
+              c-1.4,0.7-3.1,0.6-4.1-0.6c-1-1.1-1.2-2.4-1.2-3.2c0-0.4-0.3-0.8-0.8-0.8c-0.5,0-0.7,0.2-0.8,0.8c-1.7,6.2,3.6,9.4,5.8,9.4
+              c0.7,0,1.3-0.1,1.9-0.2L2.2,76.4L71.5,76.5z M19.8,27.6c1.5,0.6,1.8,1.6,2,1.9c-0.8-0.4-1.6-0.7-2.6-0.6c-0.8,0-1.2,0.1-1.4,0.2
+              c-0.5,0.2-0.9,0.6-1.5,0.4c-0.4-0.2-0.6-0.5-0.7-1c0-0.5,0.4-1.1,1.6-1.2C18.6,27.2,19.4,27.4,19.8,27.6z M41.8,26.5
+              c-0.1,0.3-0.7,1.2-2.5-0.1c-1.1-0.8-4.9-1-7.4,0.2c1.3-1.5,7.1-2.5,9.1-1.6C41.9,25.5,41.9,26,41.8,26.5z M36.8,27.3
+              c1.2,0.4,1.3,1,1.2,1.5c-0.1,0.3-0.6,1.6-2.5,0.4c-1-0.7-3.5-1-6.7,0.2C29.7,27.2,34.8,26.7,36.8,27.3z M32.8,31.1
+              c1.2,0.2,1.7,0.9,1.5,1.5c-0.3,0.8-0.9,1.2-2.1,0.6c-1.2-0.5-4.5-0.3-6.2,0.6C26.5,31.3,30.2,30.7,32.8,31.1z M30.3,35.9
+              c1.2,0.4,1.5,0.8,1.5,1.4c0,0.4-0.3,1.6-1.8,1c-2.4-0.9-3.9-0.4-5.4,0.1C24.7,35.6,29,35.5,30.3,35.9z M30.1,41.4
+              c0.7,0.5,0.3,0.8,0,1.3c-0.7,1.6-0.8,2-0.4,3.8c0.1,0.6,0.2,1.2-0.1,1.2C24,48.2,20.5,52,18.6,59.3c0,0.1-2.4,1.7-2.6,1.6
+              c-0.2,0-1-1.5-1-1.6c2.6-6.9,3.2-10.2,1.5-12.5c-0.3-0.4-0.5-0.6-0.5-0.8c-0.1-0.8,2-2.3,2-4c0-0.7,0.3-1.1,0.6-1.2
+              c2.5-0.7,4.9,0.4,5.1,0.4C23.9,41.1,27.2,39.6,30.1,41.4z M21.5,37.7c-1.1,0.1-1.2,0.3-1.6,0.4c-1.6,0.5-1.7-0.8-1.7-1.2
+              c0-1.7,3.8-1.5,4.6-0.8c0.8,0.7,1.1,1.1,1,2.1C23.8,38.3,22.5,37.6,21.5,37.7z M20.6,32.8c-1.2,0-1.7,0.6-2.2,0.5
+              c-0.9-0.1-1.1-0.5-1.1-1c0-0.6,0.3-1.2,1.7-1.3c1.1-0.1,2.6,0,3.3,0.6c1,0.8,1.1,1.5,1.2,2.2C23.4,33.8,21.8,32.8,20.6,32.8z
+               M15,48.4c0,0,0.2,0.3,0.3,0.8c0.1,0.5,0.3,1.5,0.2,2.3c-0.2,0.8-1.9,6.5-2.2,7.1c-0.3,0.6-0.8,1.7-0.9,2.1c-0.1,0.4,0,2.5,0.9,3.7
+              c0.9,1.2,2.3,2.6,5.4,2.5c1.8-0.1,3-0.8,3.6-1.2c1-0.7,1.5-2.1,1.6-2.3l2.1-0.9c0,0-0.1,2.2-0.2,3.1c-0.2,0.9-0.5,2.4-1.1,3.7
+              c-0.5,1-0.2,0.9-0.7,1.3c-0.5,0.4-1.5,1.3-1.6,1.5c0,0-0.3,0.2-0.6,0.4l-14.3,0l5.7-21C14,50.2,14.9,48.6,15,48.4z M51.2,47.7
+              c-1.9,5-6.4,4.4-7.4,1.3c-0.3-0.5-0.8-0.5-1.1-0.4c-0.4,0.1-0.5,0.6-0.5,0.9c0.1,0.6,0.4,2.5,1.4,3.9c0.6,0.7,1.4,1.7,3.4,1.8
+              c2.2,0.2,2.8,0.1,5.2-0.9c0.9-0.4,2.1-1.1,3.2-2l9.6,20l-11.4,0c-1-1.6-2.7-3.9-3.8-5.3c-1.1-1.4-2.3-3.5-3.3-5.1
+              c-1-1.6-4.4-7-5.1-7.9c-0.7-1-2.4-3.9-2.9-4.7c-0.5-0.8-0.9-1.9-1-2.2c-0.2-0.3-0.2-0.6-0.2-0.6s0.6,0.1,1.2,0.1
+              c0,0,3.5,0.3,5.1-0.8c1.7-1.1,3.3-3,3.8-5c0.1-0.3-3.4-1-6.2-0.5c-1.9,0.4-4.1,1.4-5.2,2.2c0,0,0.1-0.7,0.1-0.8
+              c0-0.1,0.6-4.4,5.2-5.9c2.5-0.9,8.9-0.5,10.3,5.6C52.5,44.7,51.6,46.8,51.2,47.7z M24.3,9.8l4.8,7.6l2.8,4.4l3.5-3.8l2.4-2.6
+              l3.6,7.6c-6.5,0-15.3,3.8-17.3,15.6c0.1-6.5-1.8-10.3-4.3-12.2L24.3,9.8z M13.4,25.5c0.3-0.2,0.9-0.2,1.2-0.2c0.3,0,1.2,0.1,1.4,0.1
+              c0.2,0.1,1.4,0.3,2.2,0.8c-1.5-0.2-2.5,0.1-2.8,0.2c-0.6,0.2-1.2,0.7-1.6,0.7c-0.5,0-0.8-0.4-0.8-0.8C12.9,26,13,25.6,13.4,25.5z"/>
+            </svg>
+          </a>
+        </div>
+        <nav role="navigation" class="main-nav" id="desk_nav">
+          <ul>
+            <li (click)="clickEvent()"><a routerLink="/products" routerLinkActive="active">Products</a></li>
+            <li (click)="clickEvent()"><a routerLink="/attractions" routerLinkActive="active">Attractions</a></li>
+            <li (click)="clickEvent()"><a routerLink="/grill" routerLinkActive="active">The Boot Grill</a></li>
+            <li (click)="clickEvent()"><a routerLink="/featured" routerLinkActive="active">Featured</a></li>
+          </ul>
+      </nav>
+  </header>

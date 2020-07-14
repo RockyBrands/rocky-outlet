@@ -11,8 +11,8 @@ import { Meta, Title } from '@angular/platform-browser';
 
 export class HomeComponent {
   constructor(private meta: Meta, private titleService: Title) {
-   this.meta.addTag({ name: 'description', content: 'Come to the Rocky Outlet to find a wide variety of products including footwear, apparel, camping gear, firearms, and more.' });
-   this.titleService.setTitle( 'Rocky Outlet' );
+   this.meta.addTag({ name: 'description', content: 'Come to the Rocky Outdoor Gear Store to find a wide variety of products including footwear, apparel, camping gear, firearms, and more.' });
+   this.titleService.setTitle( 'Rocky Outdoor Gear Store' );
   }
 
   @HostBinding('@routeAnimation') routeAnimation = true;

@@ -12,5 +12,5 @@ export class ReturnComponent {
   @HostBinding('style.display')   display = 'block';
   @HostBinding('style.position')  position = 'absolute';
   @HostBinding('style.width')  width = '100%';
-  title = 'Return Policy';
+  title = 'Outlet Store Return Policy';
 }
