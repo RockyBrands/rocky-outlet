@@ -12,16 +12,16 @@
   },
   "private": true,
   "dependencies": {
-    "@angular/animations": "^4.4.3",
-    "@angular/common": "^4.4.3",
-    "@angular/compiler": "^4.4.3",
-    "@angular/core": "^4.4.3",
-    "@angular/forms": "^4.4.3",
+    "@angular/animations": "^10.0.3",
+    "@angular/common": "^10.0.3",
+    "@angular/compiler": "^10.0.3",
+    "@angular/core": "^10.0.3",
+    "@angular/forms": "^10.0.3",
     "@angular/http": "^4.4.3",
-    "@angular/platform-browser": "^4.4.3",
-    "@angular/platform-browser-dynamic": "^4.4.3",
-    "@angular/platform-server": "^4.4.3",
-    "@angular/router": "^4.4.3",
+    "@angular/platform-browser": "^10.0.3",
+    "@angular/platform-browser-dynamic": "^10.0.3",
+    "@angular/platform-server": "^10.0.3",
+    "@angular/router": "^10.0.3",
     "@ng-bootstrap/ng-bootstrap": "^1.0.0-alpha.28",
     "@types/bluebird": "^3.5.32",
     "@types/nodemailer": "^6.4.0",
@@ -36,15 +36,16 @@
     "ngx-bootstrap": "^1.7.1",
     "nodemailer": "^6.4.10",
     "npm": "^6.14.6",
-    "rxjs": "^5.1.0",
+    "rxjs": "^6.6.0",
     "update": "^0.7.4",
     "web-animations-js": "^2.3.1",
-    "zone.js": "^0.8.4"
+    "zone.js": "^0.10.3",
+    "rxjs-compat": "^6.0.0-rc.0"
   },
   "devDependencies": {
     "@angular/cli": "^10.0.2",
-    "@angular/compiler-cli": "^4.4.3",
-    "@angular/language-service": "^4.0.0",
+    "@angular/compiler-cli": "^10.0.3",
+    "@angular/language-service": "^10.0.3",
     "@types/jasmine": "~2.5.53",
     "@types/jasminewd2": "~2.0.2",
     "@types/jquery": "^3.2.11",
@@ -61,6 +62,6 @@
     "protractor": "~5.1.2",
     "ts-node": "~3.0.4",
     "tslint": "~5.3.2",
-    "typescript": "^3.5.3"
+    "typescript": "^3.9.6"
   }
 }

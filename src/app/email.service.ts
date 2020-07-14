@@ -7,6 +7,7 @@ import * as nodemailer from 'nodemailer';
 //send email in angular 6 EmailService
 //@Injectable()
 
+@Injectable()
 export class EmailService {
     
 }
