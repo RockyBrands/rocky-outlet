@@ -1,6 +1,5 @@
 import { BrowserModule, Title }    from '@angular/platform-browser';
 import { NgModule }         from '@angular/core';
-import { AlertModule } from 'ngx-bootstrap';
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsModule }   from '@angular/forms';
@@ -83,7 +82,6 @@ import { SidesComponent } from './tv/sides/sides.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    AlertModule.forRoot(),
     BrowserAnimationsModule,
     FormsModule
   ],
