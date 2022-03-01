@@ -26,8 +26,8 @@ export class ProductsComponent {
   products_image_04 = './assets/images/rocky_hunting_boot_mobile.jpg';
   products_image_05 = './assets/images/venator_apparel_mobile.jpg';
   products_image_06 = './assets/images/rocky_duty_boot_mobile.jpg';
-  products_image_07 = './assets/images/cr_sneakers_mobile.jpg';
-  products_image_08 = './assets/images/columbia_shoes_mobile.jpg';
+  products_image_07 = './assets/images/xtratuf-products.jpg';
+  products_image_08 = './assets/images/rocky-casual.jpg';
   products_image_09 = './assets/images/scrubs_mobile.jpg';
   products_image_10 = './assets/images/camping-equipment.jpg';
   products_image_12 = './assets/images/bows_mobile.jpg';

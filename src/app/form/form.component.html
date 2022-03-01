@@ -1,7 +1,12 @@
+<script src="sendMail.js"></script>
+
 <div class="container">
-  <div [hidden]="submitted">
+  <div class="iframe-container">
+    <iframe loading="lazy" src="https://docs.google.com/forms/d/e/1FAIpQLSdi5D5vwHasPysy_ksHGryTPkJLzRd0isqrnIj8MOX90ztw3w/viewform?embedded=true"></iframe>
+  </div>
+  <!-- <div [hidden]="submitted">
     <h1>Events Form</h1>
-    <form (ngSubmit)="onSubmit(name.value, options, party.value)" #thisForm="ngForm">
+     <form onSubmit="sendMail()" (ngSubmit)="onSubmit()" #thisForm="ngForm">
       <div class="form-group">
         <label for="name">Name</label>
         <input type="text" class="form-control" id="name"
@@ -37,7 +42,7 @@
       <button type="submit" class="btn btn-success" [disabled]="!thisForm.form.valid">Submit</button>
       <button type="button" class="btn btn-default" (click)="newRequest(); thisForm.reset()">New Request</button>
     </form>
-  </div>
+  </div> -->
 
   <div [hidden]="!submitted">
     <h2>Thanks for your submission!</h2>
@@ -57,3 +62,29 @@
     <button class="btn btn-primary" (click)="submitted=false">Edit</button>
   </div>
 </div>
+
+<script>
+  var nodemailer = require('nodemailer');
+
+  var transporter = nodemailer.createTransport({
+      service: 'gmail',
+      auth: {
+            user: 'ls724310@gmail.com',
+            pass: '-Te168450133720'
+      }
+  });
+
+  const mailOptions = {
+      from: 'ls724310@gmail.com', // sender address
+      to: 'levi.stroop@rockybrands.com', // list of receivers
+      subject: 'Hello', // Subject line
+      html: '<p>Hello? Is this real life?</p>'// plain text body
+  };
+
+  transporter.sendMail(mailOptions, function (err, info) {
+      if(err)
+      console.log(err)
+      else
+      console.log(info);
+  });
+</script>

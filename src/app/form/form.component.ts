@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
-import { EmailService } from '../email.service';
-
-import { Request }    from '../request';
+// import { EmailService } from '../email.service';
+import { Request } from '../request';
 
 @Component({
   selector: 'thisForm',
@@ -14,9 +13,9 @@ export class FormComponent {
   model = new Request('', this.options[0], 0);
   submitted = false;
 
-  private emailService: EmailService
-
-  onSubmit() {} 
+  onSubmit() {
+    this.submitted = true;
+  } 
 
   newRequest() {
     this.model = new Request('', '', 1);

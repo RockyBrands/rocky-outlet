@@ -5,3 +5,21 @@
 .ng-invalid:not(form)  {
   border-left: 5px solid #a94442; /* red */
 }
+
+.iframe-container {
+  overflow: hidden;
+  position: relative;
+  top: 56.25%;
+  width: 100%;
+  min-height: 1200px;
+  display: block;
+}
+
+.iframe-container iframe {
+  border: 0;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}

@@ -6,7 +6,9 @@
 */
 {
   "files": [
-    { "path": "./src/app/animations.ts" }
+    { "path": "./src/app/animations.ts",
+      "path": "./src/app/mail.js"
+    }
   ],
   "references": [
     {

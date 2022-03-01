@@ -13,11 +13,11 @@ import { NavbarComponent }  from './navbar/navbar.component';
 import { HomeComponent } from './home/home.component';
 import { ProductsComponent } from './products/products.component';
 import { AttractionsComponent } from './attractions/attractions.component';
-import { GrillComponent } from './grill/grill.component';
+// import { GrillComponent } from './grill/grill.component';
 import { FeaturedComponent } from './featured/featured.component';
 import { ReturnComponent } from './return/return.component';
 import { FooterComponent }  from './footer/footer.component';
-import { GrillFooterComponent }  from './grill-footer/footer.component';
+// import { GrillFooterComponent }  from './grill-footer/footer.component';
 import { FormComponent }  from './form/form.component';
 import { EventsComponent }  from './events/events.component';
 
@@ -52,11 +52,11 @@ import { SidesComponent } from './tv/sides/sides.component';
     HomeComponent,
     ProductsComponent,
     AttractionsComponent,
-    GrillComponent,
+    // GrillComponent,
     FeaturedComponent,
     ReturnComponent,
     FooterComponent,
-    GrillFooterComponent,
+    // GrillFooterComponent,
     FourOhFourComponent,
     TvComponent,
     TvDirective,
