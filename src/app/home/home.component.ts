@@ -19,11 +19,12 @@ export class HomeComponent {
   @HostBinding('style.display')   display = 'block';
   @HostBinding('style.position')  position = 'absolute';
   @HostBinding('style.width')  width = '100%';
+  rocky_outlet_logo = "./assets/images/rocky-outlet-logo.png";
   intro_image_mobile = "./assets/images/mobile_calltoaction.jpg";
   intro_image_desktop = "./assets/images/desktop_calltoaction_03.jpg";
-  products_image = "./assets/images/durango_kids_products_mobile.jpg";
+  products_image = "./assets/images/home-whatwesell-mobile.jpg";
   attractions_image = "./assets/images/tourist_attractions_mobile.jpg";
   grill_image = "./assets/images/boot_grill_mobile.jpg";
-  featured_image = "./assets/images/grill_display_mobile.jpg";
+  featured_image = "./assets/images/home-featured-muck.jpg";
   dvd_image = "./assets/images/sole_survivor_mobile.jpg";
 }

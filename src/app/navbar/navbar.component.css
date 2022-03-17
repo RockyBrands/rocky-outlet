@@ -23,7 +23,7 @@ nav#desk_nav {
 
 nav#desk_nav ul {
   text-decoration: none;
-  padding: 20px;
+  padding: 10px 20px;
   margin-bottom: 0;
 }
 
@@ -33,13 +33,17 @@ nav#desk_nav ul li {
   font-size: 1.5em;
 }
 
+nav#desk_nav ul li.text-link {
+  padding-bottom: 10px;
+}
+
 div#logo {
   width: 70px;
   height: 70px;
   float: left;
   position: absolute;
   z-index: 10000;
-  margin: 5px 12.5px;
+  margin: 10px 12.5px;
 }
 
 .hide {
@@ -200,6 +204,21 @@ div.nav-menu-column li	{
 /* End of Dropdown Menu  Navigation ========================================= */
 /* End of header stuff ====================================================== */
 
+#facebook {
+	width: 40px;
+	height: 40px;
+	fill: #282828;
+	transition: all 0.7s linear;
+	-webkit-transition: all 0.7s linear;
+  position: relative;
+  top: 10px;
+}
+
+#facebook:hover {
+	fill: #8a1913;
+	transition: all 0.7s linear;
+	-webkit-transition: all 0.7s linear;
+}
 
 
 

@@ -20,6 +20,7 @@ export class FeaturedComponent {
   @HostBinding('style.width')  width = '100%';
   title = 'Featured Product';
   sale_info = "Be sure to check back every now and again to see some of our favorites.";
-  intro_image = "./assets/images/grilling-camping-featured.jpg";
-  about_featured = "We have everything you need to make this summer great. I'm talking grills, tents, firepits, lanterns, chairs, and much more.";
+  intro_image_mobile = "./assets/images/featured-banner-mobile.jpg";
+  intro_image_desktop = "./assets/images/featured-banner-desktop.jpg";
+  about_featured = "Get ready to play in the mud with our massive selection of waterproof boots from the world-renowned MUCK BOOT COMPANY.";
 }

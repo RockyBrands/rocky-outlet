@@ -10,12 +10,12 @@ section.section {
 
 section#call_to_action {
   width:100%;
-  background: #f0f2ed;
+  background: #fff;
 }
 
 section#call_to_action_desktop {
   width: 100%;
-  background: #f0f2ed;
+  background: #fff;
 }
 
 section#contact {
@@ -43,8 +43,8 @@ div#about-featured .col-xs-12 {
 /* /Call to Action styling ================================================== */
 div#introduction {
   text-align: left;
-  background: #f0f2ed;
-  margin-top: 100px;
+  background: #fff;
+  margin-top: 180px;
   height: 300px;
 }
 
@@ -58,6 +58,14 @@ div#introduction p {
   color: #444444;
   margin-left: 20px;
   font-size: 1.4em;
+}
+
+img#desktop_intro_image {
+  display: none;
+}
+
+img#mobile_intro_image {
+  display: inherit;
 }
 /* End of Intro / Call to Action ============================================ */
 
@@ -212,5 +220,13 @@ footer#footer {
 
   .col-xs-10.right {
     margin-right: 160px;
+  }
+
+  img#desktop_intro_image {
+    display: inherit;
+  }
+
+  img#mobile_intro_image {
+    display: none;
   }
 }

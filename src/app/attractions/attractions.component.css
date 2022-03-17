@@ -18,7 +18,7 @@ section.section {
 
 section#call_to_action {
   width:100%;
-  background: #f0f2ed;
+  background: #fff;
 }
 
 section#attractions_info {
@@ -32,8 +32,8 @@ section#attractions_info {
 /* /Call to Action styling ================================================== */
 div#introduction {
   text-align: left;
-  background: #f0f2ed;
-  margin-top: 100px;
+  background: #fff;
+  margin-top: 180px;
   height: 300px;
 }
 

@@ -18,7 +18,7 @@ section.section {
 
 section#call_to_action {
   width: 100%;
-  background: #f0f2ed;
+  background: #fff;
 }
 
 section#products {
@@ -38,22 +38,29 @@ section#contact {
 
 /* /Call to Action styling ================================================== */
 div#introduction {
-  text-align: left;
-  background: #f0f2ed;
+  text-align: center;
+  background: #fff;
   margin-top: 150px;
   height: 300px;
 }
 
 div#introduction h1 {
-  color: #282828;
-  margin-left: 20px;
-  font-size: 3em;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  margin: 0;
 }
 
 div#introduction p {
   color: #444444;
-  margin-left: 20px;
   font-size: 1.4em;
+  margin-bottom: 60px;
+}
+
+div#introduction .logo-contained {
+  max-width: 450px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
 img#desktop_intro_image {
@@ -202,9 +209,7 @@ footer#footer {
 }
 
 @media screen and (min-width: 500px) {
-  div#introduction h1 {
-    font-size: 4em;
-  }
+
 }
 
 @media screen and (min-width: 768px) {
@@ -215,21 +220,13 @@ footer#footer {
 
 /* Desktop ====================================== */
 @media screen and (min-width: 992px) {
+  div#introduction p {
+    margin-bottom: 80px;
+  }
+
   .half_text {
     padding-top: 0px;
     padding-bottom: 0px;
-  }
-
-  div#introduction {
-    margin-top: 180px;
-  }
-
-  div#introduction h1 {
-    margin-left: 200px;
-  }
-
-  div#introduction p {
-    margin-left: 200px;
   }
 
   img#desktop_intro_image {
