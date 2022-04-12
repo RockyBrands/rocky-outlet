@@ -179,7 +179,7 @@ div#contact_info h2 {
   text-transform: uppercase;
 }
 
-div#hours h2 {
+div.hours h2 {
   color: #515844;
   text-transform: uppercase;
 }
