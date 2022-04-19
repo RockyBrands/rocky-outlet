@@ -22,7 +22,7 @@ export class ProductsComponent {
   intro_image_mobile = "./assets/images/product-banner-mobile.jpg";
   intro_image_desktop = "./assets/images/product-banner-desktop.jpg";
   products_image_01 = './assets/images/georgia_boot_mobile.jpg';
-  products_image_02 = './assets/images/carhartt_coats_mobile.jpg';
+  products_image_02 = './assets/images/product-work-apparel.jpg';
   products_image_03 = './assets/images/product-western-mobile.jpg';
   products_image_04 = './assets/images/rocky_hunting_boot_mobile.jpg';
   products_image_05 = './assets/images/venator_apparel_mobile.jpg';
