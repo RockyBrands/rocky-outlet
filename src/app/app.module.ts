@@ -20,6 +20,7 @@ import { FooterComponent }  from './footer/footer.component';
 // import { GrillFooterComponent }  from './grill-footer/footer.component';
 import { FormComponent }  from './form/form.component';
 import { EventsComponent }  from './events/events.component';
+import { NewsletterComponent } from './newsletter/newsletter.component'
 
 import { FourOhFourComponent }  from './fourohfour/fourohfour.component';
 import { TvComponent }  from './tv/tv.component';
@@ -77,7 +78,8 @@ import { SidesComponent } from './tv/sides/sides.component';
     SandwichesComponent,
     SidesComponent,
     FormComponent,
-    EventsComponent
+    EventsComponent,
+    NewsletterComponent
   ],
   imports: [
     BrowserModule,

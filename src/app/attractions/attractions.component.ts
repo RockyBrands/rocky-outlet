@@ -23,7 +23,6 @@ export class AttractionsComponent {
   attractions_image_01 = "./assets/images/hvsr_mobile.jpg";
   attractions_image_02 = "./assets/images/hocking_hills_mobile.jpg";
   attractions_image_03 = "./assets/images/athens_mobile.jpg";
-  attractions_image_04 = "./assets/images/bike_rental_mobile.jpg";
   attractions_image_05 = "./assets/images/nelsonville_mobile.jpg";
   attractions_image_06 = "./assets/images/bike_path_mobile.jpg";
   attractions_image_07 = "./assets/images/stuarts_mobile.jpg";

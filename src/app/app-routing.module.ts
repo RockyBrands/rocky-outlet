@@ -11,6 +11,7 @@ import { ReturnComponent } from './return/return.component';
 import { FourOhFourComponent }  from './fourohfour/fourohfour.component';
 import { TvComponent }  from './tv/tv.component';
 import { EventsComponent }  from './events/events.component';
+import { NewsletterComponent } from './newsletter/newsletter.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
@@ -22,6 +23,7 @@ const routes: Routes = [
   { path: 'return', component: ReturnComponent },
   { path: 'tv', component: TvComponent },
   { path: 'events', component: EventsComponent },
+  { path: 'newsletter', component: NewsletterComponent },
   { path: '**', component: FourOhFourComponent }
 ];
 
